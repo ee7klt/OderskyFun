@@ -1,0 +1,5 @@
+package greeter
+
+object newton {
+  1+2                                             //> res0: Int(3) = 3
+}
