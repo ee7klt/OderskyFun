@@ -22,5 +22,6 @@ object session {
 	sqrt(1e-20)                               //> res5: Double = 1.0000021484861236E-10
 	sqrt(1e-20)*sqrt(1e-20)                   //> res6: Double = 1.0000042969768631E-20
 	sqrt(1.45e130)                            //> res7: Double = 1.204161474260955E65
-	sqrt(1.45e130)*sqrt(1.45e130)             //> res8: Double = 1.4500048560943167E130
+	sqrt(1.45e130)*sqrt(1.45e130)
+                                                  //> res8: Double(1.45E30) = 1.45E30
 }
