@@ -14,7 +14,7 @@ object session {
 	def improve(guess: Double) =
 		(guess + x/guess)/2
 		
-		sqrtIter(1.0);
+		sqrtIter(1.0,x);
 		
 	}                                         //> sqrt: (x: Double)Double
 
