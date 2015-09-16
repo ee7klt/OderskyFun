@@ -17,23 +17,8 @@ object session {
 		sqrtIter(1.0,x);
 		
 	}                                         //> sqrt: (x: Double)Double
-
-	sqrt(4);                                  //> res1: Double = 2.0000000929222947
-	
 		
-	def hello(a: Int) = {
-		3
-	}                                         //> hello: (a: Int)Int
+	//def sqrt(x:Double) = sqrtIter(1.0,x)
 	
-	hello(2);                                 //> res2: Int = 3
-	def there(b:Int) ={
-	def hello(a: Int) = {
-		2
-	}
-	
-	hello(2);
-	
-	}                                         //> there: (b: Int)Int
-	there(2);                                 //> res3: Int = 2
 
 }

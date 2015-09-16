@@ -1560,3 +1560,147 @@ Java Model Exception: Java Model Status [helloworld does not exist]
 2015-09-15 15:09:02,014  WARN [Worker-877] - ScalaProject - Project funprog runs on platform default installation.
 2015-09-15 15:09:02,018  WARN [Worker-877] - ScalaProject - Project funprog has platform default sourceLevel.
 2015-09-15 15:09:02,018  WARN [Worker-877] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:03:04,505  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:03:04,523  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:03:04,541  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:03:04,541  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:03:04,550  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:03:04,550  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:05:39,773  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:05:39,785  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:05:39,794  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:05:39,794  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:05:39,802  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:05:39,802  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:05:40,819  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:05:40,820  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:05:40,824  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:05:40,824  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:05:40,829  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:05:40,829  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:02,928  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:02,940  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:02,948  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:02,948  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:02,959  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:02,959  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:03,994  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:03,994  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:04,002  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:04,002  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:04,009  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:04,009  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:18,120  WARN [Worker-907] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:18,120  WARN [Worker-907] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:18,125  WARN [Worker-907] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:18,125  WARN [Worker-907] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:18,134  WARN [Worker-907] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:18,134  WARN [Worker-907] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:19,157  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:19,159  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:19,167  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:19,167  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:19,175  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:19,175  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:30,205  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:30,205  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:30,212  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:30,212  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:30,219  WARN [Worker-908] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:30,219  WARN [Worker-908] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:31,235  WARN [Worker-904] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:31,235  WARN [Worker-904] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:31,241  WARN [Worker-904] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:31,241  WARN [Worker-904] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:06:31,246  WARN [Worker-904] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:06:31,246  WARN [Worker-904] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:06,226  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:06,231  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:06,245  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:06,245  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:06,252  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:06,252  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:24,417  WARN [Worker-911] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:24,426  WARN [Worker-911] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:24,445  WARN [Worker-911] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:24,445  WARN [Worker-911] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:24,454  WARN [Worker-911] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:24,455  WARN [Worker-911] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:25,558  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:25,558  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:25,566  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:25,566  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:25,573  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:25,573  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:36,567  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:36,567  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:36,574  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:36,574  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:36,585  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:36,585  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:44,512  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:44,512  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:44,523  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:44,524  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:44,540  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:44,540  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:45,587  WARN [Worker-910] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:45,587  WARN [Worker-910] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:45,594  WARN [Worker-910] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:45,594  WARN [Worker-910] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:45,601  WARN [Worker-910] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:45,601  WARN [Worker-910] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:47,396  WARN [Worker-909] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:47,396  WARN [Worker-909] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:47,403  WARN [Worker-909] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:47,411  WARN [Worker-909] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:47,427  WARN [Worker-909] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:47,427  WARN [Worker-909] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:48,466  WARN [Worker-907] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:48,467  WARN [Worker-907] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:48,474  WARN [Worker-907] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:48,474  WARN [Worker-907] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:48,485  WARN [Worker-907] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:48,485  WARN [Worker-907] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:54,376  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:54,376  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:54,393  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:54,394  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:54,402  WARN [Worker-900] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:54,402  WARN [Worker-900] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:55,473  WARN [Worker-909] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:55,473  WARN [Worker-909] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:55,480  WARN [Worker-909] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:55,480  WARN [Worker-909] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:21:55,486  WARN [Worker-909] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:21:55,486  WARN [Worker-909] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:36,610  WARN [Worker-911] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:36,617  WARN [Worker-911] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:36,622  WARN [Worker-911] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:36,622  WARN [Worker-911] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:36,627  WARN [Worker-911] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:36,627  WARN [Worker-911] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:37,644  WARN [Worker-910] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:37,644  WARN [Worker-910] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:37,649  WARN [Worker-910] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:37,649  WARN [Worker-910] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:37,654  WARN [Worker-910] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:37,654  WARN [Worker-910] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:43,203  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:43,204  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:43,209  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:43,209  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:43,214  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:43,215  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:55,428  WARN [Worker-904] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:55,429  WARN [Worker-904] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:55,434  WARN [Worker-904] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:55,434  WARN [Worker-904] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:55,443  WARN [Worker-904] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:55,443  WARN [Worker-904] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:56,458  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:56,459  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:56,463  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:56,463  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-16 13:22:56,467  WARN [Worker-897] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-16 13:22:56,468  WARN [Worker-897] - ScalaProject - Project funprog runs on platform default installation.

@@ -26,14 +26,5 @@ object session {
 	}                                         //> hello: (a: Int)Int
 	
 	hello(2);                                 //> res2: Int = 3
-	def there(b:Int) ={
-	def hello(a: Int) = {
-		2
-	}
-	
-	hello(2);
-	
-	}                                         //> there: (b: Int)Int
-	there(2);                                 //> res3: Int = 2
 
 }
