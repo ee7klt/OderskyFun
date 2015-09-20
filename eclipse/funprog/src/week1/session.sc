@@ -1,7 +1,7 @@
 package week1
 
 object session {
-  1+3                                             //> res0: Int(4) = 4
+                                           //> res0: Int(4) = 4
   def sqrt(x: Double) = {
   def abs(x: Double) = if (x<0) -x else x
   def sqrtIter(guess: Double): Double =
