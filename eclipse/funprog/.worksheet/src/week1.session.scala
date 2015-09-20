@@ -42,6 +42,26 @@ object session {;import org.scalaide.worksheet.runtime.library.WorksheetSupport.
 	val result = {
 		val x = f(3)
 		x*x
-	} + x;System.out.println("""result  : Int = """ + $show(result ))}
+	} + x;System.out.println("""result  : Int = """ + $show(result ));$skip(129); 
+	
+	
+	def gcd(a: Int, b: Int): Int = {
+		if (b==0) a else {
+			println("b = " + b + ", a mod b =  " + a%b)
+			gcd(b, a%b)
+			}
+	};System.out.println("""gcd: (a: Int, b: Int)Int""");$skip(13); val res$4 = 
+	gcd(14,21);System.out.println("""res4: Int = """ + $show(res$4));$skip(231); ;
+                                                  
+                                                  
+     def factorial(n: Int): Int =
+     	if (n == 0) 1 else {
+     	  println (n + " " + (n-1))
+     		n* factorial(n-1)
+     		};System.out.println("""factorial: (n: Int)Int""");$skip(37); val res$5 = 
+     	
+     
+     
+     factorial(4);System.out.println("""res5: Int = """ + $show(res$5))}
 
 }

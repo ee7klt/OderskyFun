@@ -43,5 +43,32 @@ object session {
 		val x = f(3)
 		x*x
 	} + x                                     //> result  : Int = 16
+	
+	
+	def gcd(a: Int, b: Int): Int = {
+		if (b==0) a else {
+			println("b = " + b + ", a mod b =  " + a%b)
+			gcd(b, a%b)
+			}
+	}                                         //> gcd: (a: Int, b: Int)Int
+	gcd(14,21);                               //> b = 21, a mod b =  14
+                                                  //| b = 14, a mod b =  7
+                                                  //| b = 7, a mod b =  0
+                                                  //| res4: Int = 7
+                                                  
+                                                  
+     def factorial(n: Int): Int =
+     	if (n == 0) 1 else {
+     	  println (n + " " + (n-1))
+     		n* factorial(n-1)
+     		}                                 //> factorial: (n: Int)Int
+     	
+     
+     
+     factorial(4)                                 //> 4 3
+                                                  //| 3 2
+                                                  //| 2 1
+                                                  //| 1 0
+                                                  //| res5: Int = 24
 
 }
