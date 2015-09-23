@@ -1,6 +1,7 @@
 package week1
 
 object session {
+                                           //> res0: Int(4) = 4
   def sqrt(x: Double) = {
   def abs(x: Double) = if (x<0) -x else x
   def sqrtIter(guess: Double): Double =
@@ -17,14 +18,14 @@ object session {
 		
 	}                                         //> sqrt: (x: Double)Double
 
-	sqrt(4);                                  //> res0: Double = 2.0000000929222947
+	sqrt(4);                                  //> res1: Double = 2.0000000929222947
 	
 		
 	def hello(a: Int) = {
 		3
 	}                                         //> hello: (a: Int)Int
 	
-	hello(2);                                 //> res1: Int = 3
+	hello(2);                                 //> res2: Int = 3
 	def there(b:Int) ={
 	def hello(a: Int) = {
 		2
@@ -33,7 +34,7 @@ object session {
 	hello(2);
 	
 	}                                         //> there: (b: Int)Int
-	there(2);                                 //> res2: Int = 2
+	there(2);                                 //> res3: Int = 2
 	
 	
 	val x = 0;                                //> x  : Int = 0
@@ -53,7 +54,7 @@ object session {
 	gcd(14,21);                               //> b = 21, a mod b =  14
                                                   //| b = 14, a mod b =  7
                                                   //| b = 7, a mod b =  0
-                                                  //| res3: Int = 7
+                                                  //| res4: Int = 7
                                                   
                                                   
      def factorial(n: Int): Int =
@@ -68,16 +69,11 @@ object session {
                                                   //| 3 2
                                                   //| 2 1
                                                   //| 1 0
-                                                  //| res4: Int = 24
+                                                  //| res5: Int = 24
                                                   
                                                   
-    
-      def tailfactorial (n: Int):  Int = {
-      	println("this is tail factorial")
-      	 0
-      	 }                                        //> tailfactorial: (n: Int)Int
-      	 
-      	tailfactorial(3)                          //> this is tail factorial
-                                                  //| res5: Int = 0
+       @tailrec                                      
+      def tailfactorial (n: Int):  Int =
+      	println("this is tail factorial")                                
 
 }

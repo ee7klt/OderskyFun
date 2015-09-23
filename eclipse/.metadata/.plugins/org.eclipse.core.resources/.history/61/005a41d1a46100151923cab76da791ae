@@ -76,8 +76,5 @@ object session {
       	println("this is tail factorial")
       	 0
       	 }                                        //> tailfactorial: (n: Int)Int
-      	 
-      	tailfactorial(3)                          //> this is tail factorial
-                                                  //| res5: Int = 0
 
 }

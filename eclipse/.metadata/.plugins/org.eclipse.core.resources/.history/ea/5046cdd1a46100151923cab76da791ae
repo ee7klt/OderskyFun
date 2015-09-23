@@ -77,7 +77,6 @@ object session {
       	 0
       	 }                                        //> tailfactorial: (n: Int)Int
       	 
-      	tailfactorial(3)                          //> this is tail factorial
-                                                  //| res5: Int = 0
+      	tailfactorial(3)
 
 }

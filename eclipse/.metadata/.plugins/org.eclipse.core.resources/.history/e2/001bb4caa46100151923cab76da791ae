@@ -1,0 +1,72 @@
+package week1
+
+object session {
+  def sqrt(x: Double) = {
+  def abs(x: Double) = if (x<0) -x else x
+  def sqrtIter(guess: Double): Double =
+  	if (isGoodEnough(guess)) guess
+  	else sqrtIter(improve(guess))
+  	
+  def isGoodEnough(guess: Double): Boolean =
+  	abs(guess*guess-x) < .0001*x
+  
+	def improve(guess: Double) =
+		(guess + x/guess)/2
+		
+		sqrtIter(1.0);
+		
+	}
+
+	sqrt(4);
+	
+		
+	def hello(a: Int) = {
+		3
+	}
+	
+	hello(2);
+	def there(b:Int) ={
+	def hello(a: Int) = {
+		2
+	}
+	
+	hello(2);
+	
+	}
+	there(2);
+	
+	
+	val x = 0;
+	def f(y: Int) = y +1
+	val result = {
+		val x = f(3)
+		x*x
+	} + x
+	
+	
+	def gcd(a: Int, b: Int): Int = {
+		if (b==0) a else {
+			println("b = " + b + ", a mod b =  " + a%b)
+			gcd(b, a%b)
+			}
+	}
+	gcd(14,21);
+                                                  
+                                                  
+     def factorial(n: Int): Int =
+     	if (n == 0) 1 else {
+     	  println (n + " " + (n-1))
+     		n* factorial(n-1)
+     		}
+     	
+     
+     
+     factorial(4)
+                                                  
+                                                  
+    
+      def tailfactorial (n: Int):  Int =
+      	println("this is tail factorial")
+      	 0
+
+}
