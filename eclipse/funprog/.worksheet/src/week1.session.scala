@@ -63,16 +63,16 @@ import scala.annotation.tailrec;import org.scalaide.worksheet.runtime.library.Wo
      	
      
      
-     factorial(4);System.out.println("""res4: Int = """ + $show(res$4));$skip(298); 
+     factorial(4);System.out.println("""res4: Int = """ + $show(res$4));$skip(284); 
                                                   
                                                   
 
       	def tailfactorial (n: Int):  Int = {
-      		val acc = 1
+      	
       		def loop(n: Int, acc: Int): Int = {
       			if (n == 1) acc else loop(n-1, acc*n)
       		}
-     			loop(n,acc)
+     			loop(n,1)
       	 };System.out.println("""tailfactorial: (n: Int)Int""");$skip(33); val res$5 = 
       	 
       	tailfactorial(5);System.out.println("""res5: Int = """ + $show(res$5))}
