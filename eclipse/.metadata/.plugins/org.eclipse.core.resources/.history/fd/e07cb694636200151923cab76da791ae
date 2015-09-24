@@ -82,6 +82,6 @@ import scala.annotation.tailrec
      			loop(n,acc)
       	 }                                        //> tailfactorial: (n: Int)Int
       	 
-      	tailfactorial(5)                          //> res5: Int = 24
+      	tailfactorial(4)                          //> res5: Int = 24
 
 }

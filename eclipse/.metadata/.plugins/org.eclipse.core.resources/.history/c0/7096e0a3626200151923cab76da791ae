@@ -75,13 +75,15 @@ import scala.annotation.tailrec
                                                   
 
       	def tailfactorial (n: Int):  Int = {
-      		val acc = 1
-      		def loop(n: Int, acc: Int): Int = {
-      			if (n == 1) acc else loop(n-1, acc*n)
-      		}
-     			loop(n,acc)
+      	val acc =0 ;
+      	println("this is tail factorial")
+      	 if (n <= 1) acc else tailfactorial(n-1)
+      	 0
       	 }                                        //> tailfactorial: (n: Int)Int
       	 
-      	tailfactorial(5)                          //> res5: Int = 24
+      	tailfactorial(3)                          //> this is tail factorial
+                                                  //| this is tail factorial
+                                                  //| this is tail factorial
+                                                  //| res5: Int = 0
 
 }
