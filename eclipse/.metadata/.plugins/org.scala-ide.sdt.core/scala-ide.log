@@ -2412,3 +2412,1037 @@ Java Model Exception: Java Model Status [helloworld does not exist]
 2015-09-24 10:28:24,502  WARN [Worker-1185] - ScalaProject - Project funprog runs on platform default installation.
 2015-09-24 10:28:24,506  WARN [Worker-1185] - ScalaProject - Project funprog has platform default sourceLevel.
 2015-09-24 10:28:24,506  WARN [Worker-1185] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:35:50,212  WARN [Worker-1184] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:35:50,219  WARN [Worker-1184] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:35:50,228  WARN [Worker-1184] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:35:50,229  WARN [Worker-1184] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:35:50,240  WARN [Worker-1184] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:35:50,240  WARN [Worker-1184] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:36:19,531  WARN [Worker-1187] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:36:19,542  WARN [Worker-1187] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:36:19,547  WARN [Worker-1187] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:36:19,547  WARN [Worker-1187] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:36:19,551  WARN [Worker-1187] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:36:19,551  WARN [Worker-1187] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:36:21,583  WARN [Worker-1191] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:36:21,583  WARN [Worker-1191] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:36:21,587  WARN [Worker-1191] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:36:21,588  WARN [Worker-1191] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:36:21,592  WARN [Worker-1191] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:36:21,592  WARN [Worker-1191] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:38:14,453  WARN [Worker-1189] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:38:14,456  WARN [Worker-1189] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:38:14,469  WARN [Worker-1189] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:38:14,469  WARN [Worker-1189] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:38:14,474  WARN [Worker-1189] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:38:14,474  WARN [Worker-1189] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:38:15,489  WARN [Worker-1184] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:38:15,489  WARN [Worker-1184] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:38:15,493  WARN [Worker-1184] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:38:15,494  WARN [Worker-1184] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:38:15,498  WARN [Worker-1184] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:38:15,498  WARN [Worker-1184] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:42:08,711  WARN [Worker-1189] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:42:08,718  WARN [Worker-1189] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:42:08,732  WARN [Worker-1189] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:42:08,732  WARN [Worker-1189] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:42:08,737  WARN [Worker-1189] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:42:08,737  WARN [Worker-1189] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:42:09,752  WARN [Worker-1187] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:42:09,753  WARN [Worker-1187] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:42:09,783  WARN [Worker-1187] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:42:09,783  WARN [Worker-1187] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 10:42:09,788  WARN [Worker-1187] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 10:42:09,789  WARN [Worker-1187] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:04:15,709  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:15,715  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,398  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,398  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,434 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,482  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,482  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,580  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,580  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,581 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,595 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,667 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,673  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,673  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,758 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,759  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,759  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,849 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,849  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,849  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:16,933 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:16,933  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:16,933  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:17,020 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:18,029  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:18,029  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:18,117 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:18,117  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:18,117  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:18,206 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:18,207  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:18,207  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:18,303  WARN [Worker-1206] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:18,303 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:18,303  WARN [Worker-1206] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:18,391  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:18,391 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:18,391  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:18,475 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:04:18,476  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:04:18,476  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:04:18,556 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:04,944  WARN [ForkJoinPool-2-worker-7] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:04,958  WARN [ForkJoinPool-2-worker-7] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:05,024  WARN [ForkJoinPool-2-worker-7] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:05,024  WARN [ForkJoinPool-2-worker-7] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:05,060 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:05,061 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:05,121  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:05,121  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:05,210 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:06,125  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:06,125  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:06,159  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:06,159  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:06,159 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:06,200 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:06,200  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:06,200  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:06,238 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:06,238  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:06,238  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:06,272 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:06,272  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:06,272  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:06,309 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:06,311  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:06,311  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:06,349 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:10,052  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:10,052  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:10,138 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:10,900  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:10,900  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:10,934 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:10,934  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:10,935  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:10,969 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:10,969  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:10,969  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:11,006  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:11,006  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:11,008 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:11,041 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:11,041  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:11,041  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:11,098 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:11,098  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:11,098  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:11,187 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:11,521  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:11,521  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:11,606 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:11,607  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:11,607  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:11,691 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:12,410  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:12,410  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:12,516 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:13,199  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:13,199  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:13,294 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:13,295  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:13,295  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:13,387 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:13,387  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:13,387  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:13,472 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:13,472  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:13,472  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:13,560 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:13,560  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:13,560  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:13,613 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:13,613  WARN [Worker-1211] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:13,613  WARN [Worker-1211] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:13,650 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:14,494  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:14,495  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:14,573 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:14,636  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:14,637  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:14,730 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:15,621  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:15,621  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:15,655 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:15,655  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:15,655  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:15,689  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:15,689  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:15,691 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:15,724  WARN [Worker-1206] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:15,724  WARN [Worker-1206] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:15,730 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:15,758  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:15,758  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:15,776 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:15,793 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:15,793  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:15,793  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:15,827 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:16,188  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:16,188  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:16,252 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:16,480  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:16,480  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:16,537 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:17,230  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:17,230  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:17,304 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:17,838  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:17,838  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:17,872 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:17,872  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:17,872  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:17,910 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:17,910  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:17,910  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:17,946 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:17,946  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:17,946  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:17,980 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:17,980  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:17,980  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:18,014  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:18,014  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:18,024 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:18,049 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:20,188  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:20,188  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:20,256 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:20,398  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:20,398  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:20,456 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:20,550  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:20,550  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:20,624 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:20,766  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:20,766  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:20,824 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,575  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,575  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,644 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,644  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,644  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,680 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,681  WARN [Worker-1220] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,681  WARN [Worker-1220] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,716 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,716  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,716  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,751 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,751  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,751  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,786  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,786 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,786  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,819 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:21,855  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:21,855  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:21,924 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:22,262  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:22,262  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:22,325 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:22,550  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:22,550  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:22,608 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:23,329  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:23,329  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:23,362  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:23,362  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:23,376 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:23,396 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:23,396  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:23,396  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:23,430 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:23,430  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:23,430  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:23,464 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:23,464  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:23,464  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:23,498 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:23,498  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:23,498  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:23,538 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:43,153  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:43,168  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:43,205 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:43,205  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:43,205  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:43,240 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:43,240  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:43,240  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:43,276 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:43,276  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:43,276  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:43,311 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:43,312  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:43,312  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:43,347 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:05:43,347  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:05:43,347  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:05:43,386 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:06,041  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:06,041  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:06,080  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:06,080 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:06,080  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:06,114 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:06,114  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:06,114  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:06,149  WARN [Worker-1206] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:06,149  WARN [Worker-1206] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:06,154 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:06,183 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:06,183  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:06,183  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:06,217 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:06,217  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:06,217  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:06,251 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:07,261  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:07,261  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:07,295 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:07,295  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:07,295  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:07,329 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:11,478  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:11,478  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:11,557 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,220  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,220  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:12,287 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,799  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,799  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:12,833 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,833  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,833  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:12,868 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,869  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,869  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:12,907 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,907  WARN [Worker-1206] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,907  WARN [Worker-1206] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:12,942 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,942  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,942  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:12,978 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:12,978  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:12,978  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:13,012 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:15,651  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:06:15,654  WARN [org.eclipse.jface.text.reconciler.MonoReconciler] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:06:23,593  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:23,593  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:23,628 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:23,628  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:23,628  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:23,662  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:23,662  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:23,676 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:23,696 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:23,697  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:23,697  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:23,730  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:23,730  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:23,740 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:23,776  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:23,777  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:23,790 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:23,853 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:24,575  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:24,575  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:24,610 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:24,610  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:24,610  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:24,644 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:24,821  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:24,821  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:24,896 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:25,467  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:25,467  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:25,541  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:25,541  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:25,605  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:25,605  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:25,652 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:25,746 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:25,807 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:26,365  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:26,365  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:26,399 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:26,399  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:26,399  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:26,433  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:26,433  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:26,438 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:26,468 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:26,468  WARN [Worker-1206] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:26,468  WARN [Worker-1206] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:26,502 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:26,502  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:26,502  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:26,536 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:26,536  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:26,536  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:26,576 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:27,412  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:27,412  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:27,482 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:27,494  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:27,495  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:27,627 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:27,756  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:27,758  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:27,809 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:28,586  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:28,586  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:28,619 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:28,619  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:28,619  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:28,653 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:28,653  WARN [Worker-1220] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:28,653  WARN [Worker-1220] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:28,691  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:28,691  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:28,701 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:28,726 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:28,726  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:28,726  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:28,786  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:28,786 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:28,786  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:28,820 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:29,839  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:29,839  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:29,899 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:30,213  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:30,213  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:30,281 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:30,412  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:30,412  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:30,484 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:30,583  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:30,583  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:30,645 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:30,747  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:30,747  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:30,829 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:31,188  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:31,188  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:31,246 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:31,331  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:31,331  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:31,430 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:31,469  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:31,469  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:31,568 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:31,647  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:31,647  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:31,713 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:31,749  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:31,749  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:31,880 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:31,913  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:31,913  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:32,058  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:32,058  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:32,184 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:32,248 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:32,532  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:32,532  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:32,597 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:32,740  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:32,740  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:32,798 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,351  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,351  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,385 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,385  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,385  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,420 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,420  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,420  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,454 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,454  WARN [Worker-1215] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,454  WARN [Worker-1215] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,488 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,488  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,488  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,523 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,523  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,523  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,557 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,676  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,676  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,730 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,871  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,872  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:33,931 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:33,999  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:33,999  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:34,116 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:34,324  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:34,324  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:34,383 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:34,483  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:34,483  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:34,533 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:34,616  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:34,616  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:34,672 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,573  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,573  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,606 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,606  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,607  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,641  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,641  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,675  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,675  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,699 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,699 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,712  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,712  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,746  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,746  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,781  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,781  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,815  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,815  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:35,884 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,884 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,885 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,885 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:35,921  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:35,921  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:36,017 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,034 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,074  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:36,074  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:36,171 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,185  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:36,185  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:36,316 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,853  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:36,853  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:36,888 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,888  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:36,888  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:36,922 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,922  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:36,922  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:36,956 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:36,956  WARN [Worker-1220] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:36,956  WARN [Worker-1220] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:37,007 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:37,007  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:37,007  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:37,043 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:37,044  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:37,044  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:37,080  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:37,081  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:37,139 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:37,139 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:37,716  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:37,716  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:37,851 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:38,592  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:38,592  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:38,643 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:38,643  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:38,643  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:38,678  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:38,678  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:38,690 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:38,712 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:38,712  WARN [Worker-1215] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:38,712  WARN [Worker-1215] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:38,746 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:38,746  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:38,746  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:38,780 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:38,780  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:38,780  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:38,814 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:40,202  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:40,202  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:40,274 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:40,829  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:40,829  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:40,862 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:40,863  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:40,863  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:40,898 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:40,898  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:40,898  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:40,933  WARN [Worker-1211] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:40,933  WARN [Worker-1211] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:40,934 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:40,967 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:40,967  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:40,967  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:41,001 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:41,001  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:41,001  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:41,036 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:43,444  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:43,444  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:43,491 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:44,057  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:44,057  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:44,092  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:44,092 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:44,092  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:44,126 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:44,126  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:44,127  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:44,161 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:44,161  WARN [Worker-1215] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:44,161  WARN [Worker-1215] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:44,197  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:44,197  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:44,199 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:44,233 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:44,234  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:44,234  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:44,271 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:45,308  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:45,308  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:45,382 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:45,492  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:45,492  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:45,574 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:45,820  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:45,820  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:45,908 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:45,993  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:45,993  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:46,059  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:46,059  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:46,128 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:46,180  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:46,180  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:46,278 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:46,358 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:46,406  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:46,406  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:46,528 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:47,293  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:47,293  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:47,327 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:47,327  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:47,327  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:47,360 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:47,360  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:47,360  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:47,395 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:47,395  WARN [Worker-1220] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:47,395  WARN [Worker-1220] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:47,430  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:47,430  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:47,430 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:47,464  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:47,464  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:47,464 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:47,498 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:48,348  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:48,348  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:48,411 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:49,011  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:49,011  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:49,044 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:49,045  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:49,045  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:49,078 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:49,079  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:49,079  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:49,114 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:49,114  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:49,114  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:49,148 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:49,148  WARN [Worker-1218] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:49,148  WARN [Worker-1218] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:49,183  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:49,184  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:49,194 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:49,218 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:57,435  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:57,463  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:57,535 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:57,653  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:57,653  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:57,801 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:57,818  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:57,818  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:57,934 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:57,985  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:57,985  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:58,050 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:58,404  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:58,404  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:58,477 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:58,947  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:58,947  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:59,014 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:59,153  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:59,153  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:59,224 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:59,303  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:59,303  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:59,458 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:06:59,652  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:06:59,652  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:06:59,702 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,120  WARN [main] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,120  WARN [main] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:00,175 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,794  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,794  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:00,828 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,828  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,828  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:00,862 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,862  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,862  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:00,896 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,896  WARN [Worker-1220] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,896  WARN [Worker-1220] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:00,932 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,932  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,932  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:00,967 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:00,967  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:00,967  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:01,002 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:14,540  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:14,540  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:14,574 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:14,574  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-24 19:07:14,574  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-24 19:07:14,608 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-24 19:07:33,689  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:33,689  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:33,707  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:33,708  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:33,746  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:33,746  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:34,798  WARN [Worker-1206] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:34,798  WARN [Worker-1206] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:34,804  WARN [Worker-1206] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:34,804  WARN [Worker-1206] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:34,808  WARN [Worker-1206] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:34,808  WARN [Worker-1206] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:38,486  WARN [Worker-1206] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:38,486  WARN [Worker-1206] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:38,490  WARN [Worker-1206] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:38,490  WARN [Worker-1206] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:38,494  WARN [Worker-1206] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:38,494  WARN [Worker-1206] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:39,555  WARN [Worker-1211] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:39,555  WARN [Worker-1211] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:39,559  WARN [Worker-1211] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:39,559  WARN [Worker-1211] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:07:39,563  WARN [Worker-1211] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:07:39,563  WARN [Worker-1211] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:18,155  WARN [Worker-1220] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:18,178  WARN [Worker-1220] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:18,185  WARN [Worker-1220] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:18,185  WARN [Worker-1220] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:18,190  WARN [Worker-1220] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:18,190  WARN [Worker-1220] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:19,204  WARN [Worker-1218] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:19,204  WARN [Worker-1218] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:19,208  WARN [Worker-1218] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:19,208  WARN [Worker-1218] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:19,213  WARN [Worker-1218] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:19,213  WARN [Worker-1218] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:53,966  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:53,985  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:54,005  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:54,005  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:54,010  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:54,010  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:55,023  WARN [Worker-1221] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:55,023  WARN [Worker-1221] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:55,028  WARN [Worker-1221] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:55,029  WARN [Worker-1221] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:09:55,033  WARN [Worker-1221] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:09:55,033  WARN [Worker-1221] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:05,142  WARN [Worker-1222] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:05,183  WARN [Worker-1222] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:05,244  WARN [Worker-1222] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:05,246  WARN [Worker-1222] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:05,254  WARN [Worker-1222] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:05,254  WARN [Worker-1222] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:12,422  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:12,422  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:12,441  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:12,442  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:12,449  WARN [Worker-1215] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:12,449  WARN [Worker-1215] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:14,944  WARN [Worker-1220] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:14,944  WARN [Worker-1220] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:14,952  WARN [Worker-1220] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:14,952  WARN [Worker-1220] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:14,960  WARN [Worker-1220] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:14,961  WARN [Worker-1220] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:15,978  WARN [Worker-1221] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:15,978  WARN [Worker-1221] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:15,985  WARN [Worker-1221] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:15,985  WARN [Worker-1221] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-24 19:17:15,991  WARN [Worker-1221] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-24 19:17:15,991  WARN [Worker-1221] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:04,788  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:04,803  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:04,849  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:04,849  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:04,869  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:04,869  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:05,933  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:05,933  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:05,948  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:05,948  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:05,955  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:05,955  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:41,398  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:41,410  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:41,428  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:41,428  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:41,439  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:41,440  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:42,462  WARN [Worker-1247] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:42,462  WARN [Worker-1247] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:42,468  WARN [Worker-1247] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:42,469  WARN [Worker-1247] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:42,475  WARN [Worker-1247] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:13:42,475  WARN [Worker-1247] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:13:53,013  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:53,028  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:53,064  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:53,064  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:53,078 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:53,100  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:53,100  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:53,111 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:53,138  WARN [Worker-1237] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:53,138  WARN [Worker-1237] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:53,150 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:53,176 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:53,177  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:53,177  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:53,212 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:53,212  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:53,212  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:53,250 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:56,582  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:56,582  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:56,616 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:13:56,616  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:13:56,616  WARN [Text Viewer Hover Presenter] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:13:56,653 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:02,981  WARN [ForkJoinPool-2-worker-7] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:02,981  WARN [ForkJoinPool-2-worker-7] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:03,063 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:14,901  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:14,901  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:14,987 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:14,987  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:14,987  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:15,070 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:15,070  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:15,070  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:15,152  WARN [Worker-1239] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:15,152 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:15,152  WARN [Worker-1239] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:15,232 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:15,232  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:15,232  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:15,315 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:14:15,315  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:14:15,315  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:14:15,397 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:00,173  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:16:00,194  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:16:00,284  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:16:00,284  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:16:00,316 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:00,364 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:00,364  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:16:00,364  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:16:00,406 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:00,407  WARN [Worker-1245] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:16:00,407  WARN [Worker-1245] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:16:00,443 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:00,443  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:16:00,443  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:16:00,480 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:00,480  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:16:00,480  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:16:00,520 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:16:24,078  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:16:24,090  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:16:24,097  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:16:24,097  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:16:24,101  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:16:24,101  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:16:25,115  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:16:25,115  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:16:25,119  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:16:25,120  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:16:25,124  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:16:25,124  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:18:25,883  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:18:25,896  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:18:25,913  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:18:25,913  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:18:25,917  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:18:25,917  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:18:26,989  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:18:26,989  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:18:26,994  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:18:26,994  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:18:26,998  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:18:26,998  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:55,512  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:20:55,532  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:55,543  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:20:55,543  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:55,549  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:20:55,550  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:55,641 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-25 12:20:55,642 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-25 12:20:55,642 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-25 12:20:56,572  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:20:56,572  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:56,578  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:20:56,578  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:56,586  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:20:56,586  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:20:57,302 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-25 12:20:57,302 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-25 12:20:57,303 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-09-25 12:21:17,551  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:17,562  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:17,567  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:17,567  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:17,571  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:17,571  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:18,585  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:18,585  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:18,690  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:18,690  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:18,695  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:18,695  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:26,626  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:26,626  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:26,632  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:26,632  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:26,639  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:26,639  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:27,668  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:27,668  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:27,676  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:27,676  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:27,683  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:27,683  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:30,182  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:21:30,182  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:21:30,260  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:21:30,260  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:21:30,279 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:21:30,337 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:21:30,337  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:21:30,337  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:21:30,409 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:21:30,409  WARN [Worker-1243] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:21:30,409  WARN [Worker-1243] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:21:30,470 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:21:30,470  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:21:30,470  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:21:30,582  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   has platform default sourceLevel.
+2015-09-25 12:21:30,582  WARN [org.scalaide.ui.internal.reconciliation.ScalaReconciler] - ScalaProject - Project   runs on platform default installation.
+2015-09-25 12:21:30,590 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:21:30,671 ERROR [main] - org.scala-ide.sdt.core - org.scala-ide.sdt.core - org.scala-ide.sdt.core - 0 - scala.reflect.internal.MissingRequirementError: object scala in compiler mirror not found.
+2015-09-25 12:21:54,768  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:54,787  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:54,794  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:54,794  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:54,801  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:54,801  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:55,823  WARN [Worker-1248] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:55,823  WARN [Worker-1248] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:55,830  WARN [Worker-1248] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:55,830  WARN [Worker-1248] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:21:55,837  WARN [Worker-1248] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:21:55,837  WARN [Worker-1248] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:24:03,778  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:24:03,810  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:24:03,887  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:24:03,887  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:24:03,897  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:24:03,897  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:24:04,923  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:24:04,923  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:24:04,928  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:24:04,928  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:24:04,931  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:24:04,941  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:29:20,429  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:29:20,435  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:29:20,465  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:29:20,465  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:29:20,490  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:29:20,490  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:29:21,932  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:29:21,932  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:29:21,937  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:29:21,937  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:29:21,942  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:29:21,942  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:29,126  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:29,131  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:29,153  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:29,154  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:29,159  WARN [Worker-1237] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:29,159  WARN [Worker-1237] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:30,182  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:30,182  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:30,194  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:30,194  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:30,201  WARN [Worker-1245] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:30,201  WARN [Worker-1245] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:57,402  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:57,402  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:57,427  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:57,427  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:57,434  WARN [Worker-1243] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:57,434  WARN [Worker-1243] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:58,753  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:58,753  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:58,759  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:58,760  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:33:58,766  WARN [Worker-1239] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:33:58,766  WARN [Worker-1239] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:36:33,446  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:36:33,446  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:36:33,471  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:36:33,471  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.
+2015-09-25 12:36:33,477  WARN [Worker-1246] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-09-25 12:36:33,477  WARN [Worker-1246] - ScalaProject - Project funprog runs on platform default installation.

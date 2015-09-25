@@ -1,0 +1,5 @@
+package week1
+
+object assignment1 {
+  println("Welcome to the Scala worksheet")
+}

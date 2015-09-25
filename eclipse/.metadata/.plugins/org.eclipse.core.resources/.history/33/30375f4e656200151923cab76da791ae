@@ -1,0 +1,10 @@
+package week1
+
+object assignment1 {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  
+  def pascal(c: Int, r: Int): Int = {
+  
+  	0
+  }
+}
