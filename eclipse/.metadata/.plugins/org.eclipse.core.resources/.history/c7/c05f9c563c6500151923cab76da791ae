@@ -20,5 +20,5 @@ object assignment1 {
   }                                               //> pascal: (c: Int, r: Int)Int
   
 
-  pascal(2, 4)                                    //> res0: Int = 6
+  pascal(2, 1)                                    //> res0: Int = 3
 }

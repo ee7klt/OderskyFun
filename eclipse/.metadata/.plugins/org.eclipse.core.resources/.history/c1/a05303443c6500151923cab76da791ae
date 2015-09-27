@@ -25,8 +25,8 @@ object Main {
         }
       }
     }
-    if (c>r) throw new RuntimeException("c must be <= r") else  helper(c,r)
-   
+    
+    helper(c,r)
 
   }
 
