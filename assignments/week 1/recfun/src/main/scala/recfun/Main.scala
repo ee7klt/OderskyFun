@@ -33,7 +33,21 @@ object Main {
   /**
    * Exercise 2
    */
-  def balance(chars: List[Char]): Boolean = false
+  def balance(chars: List[Char]): Boolean = {
+    
+    def checkChar(ch:Char, c:Int):Int = 
+      if (ch == '(') c+1 else if (c==')') c-1 else c
+      
+    def loop(iChars:List[Char], state:Int):Int= {
+        if (iChars.isEmpty) state
+        else if (state == -1) -1
+        else loop(iChars.tail,(checkChar(iChars.head,state)))
+      }
+    
+    if (loop(chars,0) == 0) true else false
+    
+    
+  }
 
   /**
    * Exercise 3
