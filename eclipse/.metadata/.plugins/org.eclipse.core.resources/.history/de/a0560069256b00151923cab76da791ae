@@ -148,9 +148,8 @@ object assignment1 {
     else if (money < 0) 0
     else if (coins.length == 0) 0
     else countChange(money, coins.tail) + countChange(money - coins.head, coins)
-  }                                               //> countChange: (money: Int, coins: List[Int])Int
+  }
   
-  countChange(100, List(1, 5, 10, 25, 50))        //> res6: Int = 292
-  countChange(300,List(5,10,20,50,100,200,500))   //> res7: Int = 1022
+  countChange(100, List(1, 5, 10, 35, 50))
   
 }

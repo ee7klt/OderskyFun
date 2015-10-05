@@ -1,7 +1,7 @@
 package week1
 
 object assignment1 {
-  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  println("Welcome to the Scala worksheet")
 
   def pascal(c: Int, r: Int): Int = {
 
@@ -16,9 +16,9 @@ object assignment1 {
     }
     if (c > r) throw new RuntimeException("c must be <= r") else helper(c, r)
 
-  }                                               //> pascal: (c: Int, r: Int)Int
+  }
 
-  pascal(2, 4)                                    //> res0: Int = 6
+  pascal(2, 4)
 
   def balance(chars: List[Char]): Boolean = {
     def go(cs: List[Char], level: Int): Boolean = cs match {
@@ -29,9 +29,9 @@ object assignment1 {
       case _ :: xs               => go(xs, level)
     }
     go(chars, 0)
-  }                                               //> balance: (chars: List[Char])Boolean
+  }
 
-  balance(")(".toList)                            //> res1: Boolean = false
+  balance(")(".toList)
   
   
   def balance2(chars: List[Char]): Boolean = {
@@ -50,8 +50,8 @@ object assignment1 {
     }
 
     f(chars, 0)
-  }                                               //> balance2: (chars: List[Char])Boolean
-  balance2("()".toList)                           //> res2: Boolean = true
+  }
+  balance2("()".toList)
   
   /**
   countChars: counts number of characters in a string
@@ -65,8 +65,8 @@ object assignment1 {
     }
     
     check(0, chars)
-  }                                               //> countChars: (chars: List[Char])Int
-  countChars("hello world!".toList)               //> res3: Int = 12
+  }
+  countChars("hello world!".toList)
   
   /**
   balance3: counts number of opening and closing parantheses pairs. if pairs balance, return true.
@@ -85,9 +85,9 @@ object assignment1 {
     }
   	
   	check(0,chars) == 0
-  }                                               //> balance3: (chars: List[Char])Boolean
+  }
   
-  balance3(")(".toList)                           //> res4: Boolean = true
+  balance3(")(".toList)
   
   
   def balance4(chars: List[Char]): Boolean ={
@@ -123,23 +123,9 @@ object assignment1 {
     }
   	
   	check(0,chars) == 0
-  }                                               //> balance4: (chars: List[Char])Boolean
+  }
   
   balance4("I told him (that it’s not (yet) done). (But he wasn’t listening)".toList)
-                                                  //> 0
-                                                  //| Im at (
-                                                  //| 1
-                                                  //| Im at (
-                                                  //| 2
-                                                  //| Im at )
-                                                  //| 1
-                                                  //| Im at )
-                                                  //| 0
-                                                  //| Im at (
-                                                  //| 1
-                                                  //| Im at )
-                                                  //| 0
-                                                  //| res5: Boolean = true
                                                   
                                                   
                                                   
@@ -148,9 +134,9 @@ object assignment1 {
     else if (money < 0) 0
     else if (coins.length == 0) 0
     else countChange(money, coins.tail) + countChange(money - coins.head, coins)
-  }                                               //> countChange: (money: Int, coins: List[Int])Int
+  }
   
-  countChange(100, List(1, 5, 10, 25, 50))        //> res6: Int = 292
-  countChange(300,List(5,10,20,50,100,200,500))   //> res7: Int = 1022
+  countChange(100, List(1, 5, 10, 35, 50))
+  countChange(300,List(5,10,20,50,100,200,500)
   
 }
