@@ -4905,3 +4905,402 @@ scala.reflect.internal.FatalError: ThisType(method pascal) for sym which is not 
 2015-10-05 13:58:00,924  WARN [Worker-1593] - ScalaProject - Project funprog runs on platform default installation.
 2015-10-05 13:58:00,929  WARN [Worker-1593] - ScalaProject - Project funprog has platform default sourceLevel.
 2015-10-05 13:58:00,929  WARN [Worker-1593] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-05 14:08:39,586  WARN [Worker-1595] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-05 14:08:39,599  WARN [Worker-1595] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-05 14:08:39,608  WARN [Worker-1595] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-05 14:08:39,608  WARN [Worker-1595] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-05 14:08:39,626  WARN [Worker-1595] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-05 14:08:39,627  WARN [Worker-1595] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:43:53,190  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:43:53,199  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:43:53,317  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:43:53,317  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:43:53,329  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:43:53,330  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:16,073  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:16,073  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:16,083  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:16,083  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:16,093  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:16,093  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:16,382  WARN [bundle-323-ActorSystem-akka.actor.default-dispatcher-205] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:16,382  WARN [bundle-323-ActorSystem-akka.actor.default-dispatcher-205] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:18,125  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:18,125  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:18,131  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:18,131  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:18,140  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:18,141  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:46,380  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:46,380  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:46,386  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:46,386  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:46,394  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:46,394  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:47,409  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:47,409  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:47,415  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:47,415  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:44:47,420  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:44:47,420  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:24,360  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:24,360  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:24,366  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:24,366  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:24,370  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:24,370  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:25,382  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:25,382  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:25,386  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:25,387  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:25,390  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:25,390  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:41,575  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:41,575  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:41,579  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:41,580  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:41,584  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:41,584  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:42,846  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:42,846  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:42,850  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:42,850  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:45:42,853  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:45:42,853  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:46:39,170  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:46:39,180  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:46:39,184  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:46:39,184  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:46:39,188  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:46:39,188  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:46:40,199  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:46:40,199  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:46:40,203  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:46:40,203  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:46:40,206  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:46:40,206  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:47:22,393  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:47:22,393  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:47:22,398  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:47:22,398  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:47:22,402  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:47:22,402  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:47:23,506  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:47:23,506  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:47:23,510  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:47:23,510  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:47:23,514  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:47:23,514  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:03,532  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:03,532  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:03,540  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:03,540  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:03,550  WARN [Worker-2140] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:03,550  WARN [Worker-2140] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:05,334  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:05,353  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:05,356  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:05,356  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:05,360  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:05,360  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:14,693  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:14,694  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:14,701  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:14,701  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:14,705  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:14,705  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:15,720  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:15,720  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:15,724  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:15,724  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:15,728  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:15,728  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:33,258  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:33,259  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:33,267  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:33,267  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:33,271  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:33,271  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:34,417  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:34,417  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:34,421  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:34,421  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:50:34,424  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:50:34,424  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:55:49,164 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-10-16 08:55:49,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-10-16 08:55:49,210 ERROR [Text Viewer Hover Presenter] - IScalaPresentationCompiler$ - Ignoring InterruptException
+2015-10-16 08:56:08,236  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:08,236  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:08,262  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:08,262  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:08,266  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:08,266  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:09,491  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:09,495  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:09,499  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:09,499  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:09,502  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:09,502  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:33,263  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:33,263  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:33,273  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:33,274  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:33,278  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:33,278  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:37,416  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:37,416  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:37,421  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:37,421  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:37,431  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:37,431  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:38,870  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:38,870  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:38,874  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:38,874  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 08:56:38,878  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 08:56:38,878  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:05:39,980  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:05:40,014  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:05:40,021  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:05:40,021  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:05:40,024  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:05:40,025  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:05:41,359  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:05:41,359  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:05:41,376  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:05:41,376  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:05:41,381  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:05:41,381  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:12:52,103  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:12:52,113  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:12:52,139  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:12:52,139  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:12:52,142  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:12:52,142  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:12:53,367  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:12:53,367  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:12:53,373  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:12:53,373  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:12:53,377  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:12:53,378  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:14:41,957  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:14:41,957  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:14:41,962  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:14:41,962  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:14:41,966  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:14:41,966  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:14:43,257  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:14:43,268  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:14:43,272  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:14:43,272  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:14:43,275  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:14:43,275  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:33,966  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:33,966  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:33,970  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:33,970  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:33,974  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:33,974  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:35,597  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:35,603  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:35,608  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:35,608  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:35,611  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:35,612  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:49,393  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:49,393  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:49,399  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:49,399  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:49,404  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:49,404  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:50,741  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:50,741  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:50,745  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:50,745  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:15:50,748  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:15:50,748  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:16:10,130  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:16:10,130  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:16:10,134  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:16:10,135  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:16:10,139  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:16:10,139  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:16:11,476  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:16:11,476  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:16:11,480  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:16:11,480  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:16:11,483  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:16:11,483  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:18,436  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:18,452  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:18,460  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:18,460  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:18,464  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:18,464  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:19,578  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:19,578  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:19,582  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:19,582  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:19,586  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:19,586  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:26,844  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:26,844  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:26,848  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:26,848  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:26,852  WARN [Worker-2139] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:26,852  WARN [Worker-2139] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:27,863  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:27,864  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:27,867  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:27,867  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:27,871  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:27,871  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:32,287  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:32,287  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:32,291  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:32,291  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:32,295  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:32,295  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:33,312  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:33,312  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:33,316  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:33,316  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:33,319  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:33,319  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:37,968  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:37,968  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:37,972  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:37,972  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:37,976  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:37,976  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:39,409  WARN [Worker-2145] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:39,409  WARN [Worker-2145] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:39,414  WARN [Worker-2145] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:39,414  WARN [Worker-2145] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:18:39,418  WARN [Worker-2145] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:18:39,418  WARN [Worker-2145] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:28,807  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:28,807  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:28,812  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:28,812  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:28,818  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:28,818  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:30,407  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:30,424  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:30,428  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:30,428  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:30,431  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:30,431  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:46,304  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:46,304  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:46,309  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:46,309  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:19:46,313  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:19:46,313  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:20:02,184  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:20:02,205  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:20:02,211  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:20:02,211  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:20:02,215  WARN [Worker-2142] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:20:02,215  WARN [Worker-2142] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:20:55,931 ERROR [Worker-2143] - ProgramExecutor$ - Worksheet process has terminated unexpectedly (exit value 143
+At the time of termination, the following text was available in the output streams:
+Standard output:
+  75 Welcome to the Scala worksheet
+198 sumInts: (a#150399: Int#1111, b#150400: Int#1111)Int#1111
+216 res0: Int#1111 = 9
+251 cube: (x#150648: Int#1111)Int#1111
+391 sumCubes: (a#150652: Int#1111, b#150653: Int#1111)Int#1111
+411 res1: Int#1111 = 99
+528 fact: (x#150659: Int#1111)Int#1111
+619 sumFact: (a#150665: Int#1111, b#150666: Int#1111)Int#1111
+633 res2: Int#1111 = 6
+648 res3: Int#1111 = 9
+821 sum: (f#150672: Int#1111 => Int#1111, a#150673: Int#1111, b#150674: Int#1111
+821 )Int#1111
+877 sumIntsHO: (a#150681: Int#1111, b#150682: Int#1111)Int#1111
+928 sumCubesHO: (a#150686: Int#1111, b#150687: Int#1111)Int#1111
+978 sumFactHO: (a#150690: Int#1111, b#150691: Int#1111)Int#1111
+1007 id: (x#150683: Int#1111)Int#1111
+1030 res4: Int#1111 = 6
+1048 res5: Int#1111 = 36
+1065 res6: Int#1111 = 9
+1159 sumIntsAny: (a#150694: Int#1111, b#150695: Int#1111)Int#1111
+1177 res7: Int#1111 = 5
+1537 tailsum: (f#150698: Int#1111 => Int#1111, a#150699: Int#1111, b#150700: Int
+1537 #1111)Int#1111
+1594 sumIntsTail: (a#150710: Int#1111, b#150711: Int#1111)Int#1111
+1651 sumCubesTail: (a#150714: Int#1111, b#150715: Int#1111)Int#1111
+1707 sumFactTail: (a#150718: Int#1111, b#150719: Int#1111)Int#1111
+1734 res8: Int#1111 = 4
+1754 res9: Int#1111 = 28
+
+Standard error:
+  
+
+2015-10-16 09:21:34,864  WARN [Worker-2145] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:34,882  WARN [Worker-2145] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:34,895  WARN [Worker-2145] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:34,895  WARN [Worker-2145] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:34,899  WARN [Worker-2145] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:34,899  WARN [Worker-2145] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:52,928  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:52,929  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:52,934  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:52,934  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:52,938  WARN [Worker-2144] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:52,938  WARN [Worker-2144] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:54,349  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:54,377  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:54,382  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:54,382  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:21:54,386  WARN [Worker-2143] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:21:54,386  WARN [Worker-2143] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:23:58,557  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:23:58,557  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:23:58,562  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:23:58,563  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:23:58,566  WARN [Worker-2112] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:23:58,566  WARN [Worker-2112] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:24:09,895 ERROR [Worker-2112] - ProgramExecutor$ - Worksheet process has terminated unexpectedly (exit value 143
+At the time of termination, the following text was available in the output streams:
+Standard output:
+  75 Welcome to the Scala worksheet
+198 sumInts: (a#156987: Int#1111, b#156988: Int#1111)Int#1111
+216 res0: Int#1111 = 9
+251 cube: (x#157236: Int#1111)Int#1111
+391 sumCubes: (a#157240: Int#1111, b#157241: Int#1111)Int#1111
+411 res1: Int#1111 = 99
+528 fact: (x#157247: Int#1111)Int#1111
+619 sumFact: (a#157253: Int#1111, b#157254: Int#1111)Int#1111
+633 res2: Int#1111 = 6
+648 res3: Int#1111 = 9
+821 sum: (f#157260: Int#1111 => Int#1111, a#157261: Int#1111, b#157262: Int#1111
+821 )Int#1111
+877 sumIntsHO: (a#157269: Int#1111, b#157270: Int#1111)Int#1111
+928 sumCubesHO: (a#157274: Int#1111, b#157275: Int#1111)Int#1111
+978 sumFactHO: (a#157278: Int#1111, b#157279: Int#1111)Int#1111
+1007 id: (x#157271: Int#1111)Int#1111
+1030 res4: Int#1111 = 6
+1048 res5: Int#1111 = 36
+1065 res6: Int#1111 = 9
+1159 sumIntsAny: (a#157282: Int#1111, b#157283: Int#1111)Int#1111
+1177 res7: Int#1111 = 5
+1537 tailsum: (f#157286: Int#1111 => Int#1111, a#157287: Int#1111, b#157288: Int
+1537 #1111)Int#1111
+1594 sumIntsTail: (a#157298: Int#1111, b#157299: Int#1111)Int#1111
+1651 sumCubesTail: (a#157302: Int#1111, b#157303: Int#1111)Int#1111
+1707 sumFactTail: (a#157306: Int#1111, b#157307: Int#1111)Int#1111
+1734 res8: Int#1111 = 4
+1755 res9: Int#1111 = 28
+
+Standard error:
+  
+
+2015-10-16 09:24:16,003  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:24:16,004  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:24:16,008  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:24:16,008  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
+2015-10-16 09:24:16,012  WARN [Worker-2119] - ScalaProject - Project funprog has platform default sourceLevel.
+2015-10-16 09:24:16,012  WARN [Worker-2119] - ScalaProject - Project funprog runs on platform default installation.
