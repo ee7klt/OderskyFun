@@ -17,16 +17,16 @@ import scala.annotation.tailrec
 		
 		sqrtIter(1.0);
 		
-	}                                         //> sqrt: (x: Double)Double
+	}                                         //> sqrt: (x#184346: Double#1627)Double#1627
 
-	sqrt(4);                                  //> res0: Double = 2.0000000929222947
+	sqrt(4);                                  //> res0: Double#1627 = 2.0000000929222947
 	
 		
 	def hello(a: Int) = {
 		3
-	}                                         //> hello: (a: Int)Int
+	}                                         //> hello: (a#184363: Int#1111)Int#1111
 	
-	hello(2);                                 //> res1: Int = 3
+	hello(2);                                 //> res1: Int#1111 = 3
 	def there(b:Int) ={
 	def hello(a: Int) = {
 		2
@@ -34,16 +34,16 @@ import scala.annotation.tailrec
 	
 	hello(2);
 	
-	}                                         //> there: (b: Int)Int
-	there(2);                                 //> res2: Int = 2
+	}                                         //> there: (b#184364: Int#1111)Int#1111
+	there(2);                                 //> res2: Int#1111 = 2
 	
 	
-	val x = 0;                                //> x  : Int = 0
-	def f(y: Int) = y +1                      //> f: (y: Int)Int
+	val x = 0;                                //> x  : Int#1111 = 0
+	def f(y: Int) = y +1                      //> f: (y#184342: Int#1111)Int#1111
 	val result = {
 		val x = f(3)
 		x*x
-	} + x                                     //> result  : Int = 16
+	} + x                                     //> result  : Int#1111 = 16
 	
 	
 	def gcd(a: Int, b: Int): Int = {
@@ -51,18 +51,18 @@ import scala.annotation.tailrec
 			println("b = " + b + ", a mod b =  " + a%b)
 			gcd(b, a%b)
 			}
-	}                                         //> gcd: (a: Int, b: Int)Int
+	}                                         //> gcd: (a#184367: Int#1111, b#184368: Int#1111)Int#1111
 	gcd(14,21);                               //> b = 21, a mod b =  14
                                                   //| b = 14, a mod b =  7
                                                   //| b = 7, a mod b =  0
-                                                  //| res3: Int = 7
+                                                  //| res3: Int#1111 = 7
                                                   
                                                   
      def factorial(n: Int): Int =
      	if (n == 0) 1 else {
      	  println (n + " " + (n-1))
      		n* factorial(n-1)
-     		}                                 //> factorial: (n: Int)Int
+     		}                                 //> factorial: (n#184616: Int#1111)Int#1111
      	
      
      
@@ -70,18 +70,17 @@ import scala.annotation.tailrec
                                                   //| 3 2
                                                   //| 2 1
                                                   //| 1 0
-                                                  //| res4: Int = 24
+                                                  //| res4: Int#1111 = 24
                                                   
                                                   
 
       	def tailfactorial (n: Int):  Int = {
-      	
       		def loop(n: Int, acc: Int): Int = {
       			if (n == 1) acc else loop(n-1, acc*n)
       		}
      			loop(n,1)
-      	 }                                        //> tailfactorial: (n: Int)Int
+      	 }                                        //> tailfactorial: (n#184625: Int#1111)Int#1111
       	 
-      	tailfactorial(5)                          //> res5: Int = 120
+      	tailfactorial(5)                          //> res5: Int#1111 = 120
 
 }
