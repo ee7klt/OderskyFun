@@ -18,7 +18,7 @@ object curry {
   
   k(2)(3)                                         //> res2: Int#1111 = 6
  
-  def m =curriedSum(1)(_: Int)(_:Int)             //> m: => (Int#1111, Int#1111) => Int#1111
+  def m =curriedSum(1)(_:Int)(_:Int)              //> m: => (Int#1111, Int#1111) => Int#1111
   m(2,3)                                          //> res3: Int#1111 = 6
   
   
