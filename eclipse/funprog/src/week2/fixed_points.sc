@@ -8,7 +8,7 @@ object fixed_points {
   println("Welcome to Fixed Points")              //> Welcome to Fixed Points
   val tolerance = 0.0001                          //> tolerance  : Double#1627 = 1.0E-4
   def isCloseEnough(x: Double, y: Double) =
-  	abs((x-y)/x) < tolerance                  //> isCloseEnough: (x#829353: Double#1627, y#829354: Double#1627)Boolean#2533
+  	abs((x-y)/x) < tolerance                  //> isCloseEnough: (x#853573: Double#1627, y#853574: Double#1627)Boolean#2533
   
   
   /** (Double => Double)(Double) => Double */
@@ -20,7 +20,7 @@ object fixed_points {
   		else iterate(next)
   	}
   	iterate(firstGuess)
-  }                                               //> fixedPoint: (f#829359: Double#1627 => Double#1627)(firstGuess#829360: Double
+  }                                               //> fixedPoint: (f#853579: Double#1627 => Double#1627)(firstGuess#853580: Double
                                                   //| #1627)Double#1627
   
   
@@ -41,7 +41,7 @@ object fixed_points {
   
   
   def sqrt(x: Double) =
-  fixedPoint(y => (x/y+y)/2)(1.0)                 //> sqrt: (x#829614: Double#1627)Double#1627
+  fixedPoint(y => (x/y+y)/2)(1.0)                 //> sqrt: (x#853834: Double#1627)Double#1627
   
   sqrt(4)                                         //> 1.0
                                                   //| 2.5
@@ -51,15 +51,17 @@ object fixed_points {
                                                   //| res1: Double#1627 = 2.000000000000002
   
   def averageDamp(f: Double => Double)(x: Double) = (x+f(x))/2
-                                                  //> averageDamp: (f#829620: Double#1627 => Double#1627)(x#829621: Double#1627)Do
+                                                  //> averageDamp: (f#853840: Double#1627 => Double#1627)(x#853841: Double#1627)Do
                                                   //| uble#1627
   def sqrtDamp(x: Double) =
-  	fixedPoint(y => averageDamp(y=>x/y)(y))(1.0)
-                                                  //> sqrtDamp: (x#829625: Double#1627)Double#1627
+  	fixedPoint(averageDamp(y=>x/y))(1.0)      //> sqrtDamp: (x#853845: Double#1627)Double#1627
   sqrtDamp(2)                                     //> 1.0
                                                   //| 1.5
                                                   //| 1.4166666666666665
                                                   //| 1.4142156862745097
                                                   //| res2: Double#1627 = 1.4142135623746899
+                                                  
+   def a= averageDamp(x=>2*x)_                    //> a: => Double#1627 => Double#1627
+   a(3)                                           //> res3: Double#1627 = 4.5
   
 }

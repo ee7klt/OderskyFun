@@ -1,8 +1,0 @@
-package greeter
-
-/**
- * @author macgeekalex
- */
-object hello {
-  println("hello")
-}

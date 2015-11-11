@@ -1,9 +1,0 @@
-INDEX VERSION 1.127+/Volumes/ProdigyRaiderPRO2/Users/macgeekalex/Documents/Cloud/Copy/MOOC/Functional Programming (Odersky)/eclipse/.metadata/.plugins/org.eclipse.jdt.core
-3708165155.index
-3927879410.index
-2344631890.index
-3126397693.index
-2687044429.index
-2764662393.index
-2169658122.index
-2434580487.index
