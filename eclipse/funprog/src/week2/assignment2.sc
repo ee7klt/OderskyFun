@@ -29,7 +29,10 @@ object assignment2 {
     def a = singletonSet(3)                       //> a: => week2.assignment2.Set
     a(4)                                          //> res1: Boolean = false
     a(3)                                          //> res2: Boolean = true
-    
+       val s1 = singletonSet(1)                   //> s1  : week2.assignment2.Set = <function1>
+    val s2 = singletonSet(2)                      //> s2  : week2.assignment2.Set = <function1>
+    val s3 = singletonSet(3)                      //> s3  : week2.assignment2.Set = <function1>
+   contains(s1, 1)                                //> res3: Boolean = true
 
   /**
    * Returns the union of the two given sets,
@@ -40,9 +43,9 @@ object assignment2 {
                                                   //| .Set
     def b = union((x: Int) => x < 0, (x:Int) => x%2 == 0)
                                                   //> b: => week2.assignment2.Set
-     b(4)                                         //> res3: Boolean = true
-     b(-3)                                        //> res4: Boolean = true
-     b(3)                                         //> res5: Boolean = false
+     b(4)                                         //> res4: Boolean = true
+     b(-3)                                        //> res5: Boolean = true
+     b(3)                                         //> res6: Boolean = false
   
   /**
    * Returns the intersection of the two given sets,
@@ -53,10 +56,10 @@ object assignment2 {
                                                   //| ment2.Set
     def c = intersect((x: Int) => x < 0, (x:Int) => x%2 == 0)
                                                   //> c: => week2.assignment2.Set
-     c(4)                                         //> res6: Boolean = false
-     c(-4)                                        //> res7: Boolean = true
-     c(-3)                                        //> res8: Boolean = false
-     c(3)                                         //> res9: Boolean = false
+     c(4)                                         //> res7: Boolean = false
+     c(-4)                                        //> res8: Boolean = true
+     c(-3)                                        //> res9: Boolean = false
+     c(3)                                         //> res10: Boolean = false
   
   /**
    * Returns the difference of the two given sets,
@@ -67,17 +70,17 @@ object assignment2 {
                                                   //| .Set
     def d = diff((x: Int) => x < 0, (x:Int) => x%2 == 0)
                                                   //> d: => week2.assignment2.Set
-     d(4)                                         //> res10: Boolean = false
-     d(-4)                                        //> res11: Boolean = false
-     d(-3)                                        //> res12: Boolean = true
-     d(3)                                         //> res13: Boolean = false
+     d(4)                                         //> res11: Boolean = false
+     d(-4)                                        //> res12: Boolean = false
+     d(-3)                                        //> res13: Boolean = true
+     d(3)                                         //> res14: Boolean = false
     
     
     
   /**
    * Returns the subset of `s` for which `p` holds.
    */
-    def filter(s: Set, p: Int => Boolean): Set = ???
+    def filter(s: Set, p: Int => Boolean): Set = (x:Int) => contains(s, x) && contains(p, x)
                                                   //> filter: (s: week2.assignment2.Set, p: Int => Boolean)week2.assignment2.Set
   
 
