@@ -63,5 +63,8 @@ object fixed_points {
                                                   
    def a= averageDamp(x=>2*x)_                    //> a: => Double#1627 => Double#1627
    a(3)                                           //> res3: Double#1627 = 4.5
+   /** averageDamp(x=>2*x) */
+   
+   def a = (averageDamp(x=>x))
   
 }
