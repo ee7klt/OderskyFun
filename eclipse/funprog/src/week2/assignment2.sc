@@ -43,9 +43,11 @@ object assignment2 {
                                                   //| .Set
     def b = union((x: Int) => x < 0, (x:Int) => x%2 == 0)
                                                   //> b: => week2.assignment2.Set
-     b(4)                                         //> res4: Boolean = true
-     b(-3)                                        //> res5: Boolean = true
-     b(3)                                         //> res6: Boolean = false
+     union((x: Int) => x < 0, (x:Int) => x%2 == 0)(9)
+                                                  //> res4: Boolean = false
+     b(4)                                         //> res5: Boolean = true
+     b(-3)                                        //> res6: Boolean = true
+     b(3)                                         //> res7: Boolean = false
   
   /**
    * Returns the intersection of the two given sets,
@@ -56,10 +58,10 @@ object assignment2 {
                                                   //| ment2.Set
     def c = intersect((x: Int) => x < 0, (x:Int) => x%2 == 0)
                                                   //> c: => week2.assignment2.Set
-     c(4)                                         //> res7: Boolean = false
-     c(-4)                                        //> res8: Boolean = true
-     c(-3)                                        //> res9: Boolean = false
-     c(3)                                         //> res10: Boolean = false
+     c(4)                                         //> res8: Boolean = false
+     c(-4)                                        //> res9: Boolean = true
+     c(-3)                                        //> res10: Boolean = false
+     c(3)                                         //> res11: Boolean = false
   
   /**
    * Returns the difference of the two given sets,
@@ -70,10 +72,10 @@ object assignment2 {
                                                   //| .Set
     def d = diff((x: Int) => x < 0, (x:Int) => x%2 == 0)
                                                   //> d: => week2.assignment2.Set
-     d(4)                                         //> res11: Boolean = false
-     d(-4)                                        //> res12: Boolean = false
-     d(-3)                                        //> res13: Boolean = true
-     d(3)                                         //> res14: Boolean = false
+     d(4)                                         //> res12: Boolean = false
+     d(-4)                                        //> res13: Boolean = false
+     d(-3)                                        //> res14: Boolean = true
+     d(3)                                         //> res15: Boolean = false
     
     
     
@@ -87,31 +89,41 @@ object assignment2 {
   /**
    * The bounds for `forall` and `exists` are +/- 1000.
    */
-  val bound = 1000                                //> bound  : Int = 1000
+  val bound = 10                                  //> bound  : Int = 10
 
   /**
    * Returns whether all bounded integers within `s` satisfy `p`.
    */
     def forall(s: Set, p: Int => Boolean): Boolean = {
     def iter(a: Int): Boolean = {
-      if (???) ???
-      else if (???) ???
-      else iter(???)
+    	println(a)
+      if (a > bound) true
+      else if (!filter(s,p)(a)) false
+      else iter(-bound+1)
     }
-    iter(???)
+    iter(-bound)
   }                                               //> forall: (s: week2.assignment2.Set, p: Int => Boolean)Boolean
+  
+  
+  forall((x: Int) => (x < 10), (x:Int) => (x% 2 == 0))
+                                                  //> res16: Boolean = false|
+                                                  
+     forall((x: Int) => (x < 10), (x:Int) => (x <= 100))
+  
+  
+  // are all integers in set S from [-1000,1000] divisible by 2?
+ // forall((x: Int) => x < 0, (x:Int) => x%2 == 0)
   
   /**
    * Returns whether there exists a bounded integer within `s`
    * that satisfies `p`.
    */
     def exists(s: Set, p: Int => Boolean): Boolean = ???
-                                                  //> exists: (s: week2.assignment2.Set, p: Int => Boolean)Boolean
   
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-    def map(s: Set, f: Int => Int): Set = ???     //> map: (s: week2.assignment2.Set, f: Int => Int)week2.assignment2.Set
+    def map(s: Set, f: Int => Int): Set = ???
   
   /**
    * Displays the contents of a set
@@ -119,12 +131,12 @@ object assignment2 {
   def toString(s: Set): String = {
     val xs = for (i <- -bound to bound if contains(s, i)) yield i
     xs.mkString("{", ",", "}")
-  }                                               //> toString: (s: week2.assignment2.Set)String
+  }
 
   /**
    * Prints the contents of a set on the console.
    */
   def printSet(s: Set) {
     println(toString(s))
-  }                                               //> printSet: (s: week2.assignment2.Set)Unit
+  }
 }
