@@ -96,19 +96,55 @@ object assignment2 {
    */
     def forall(s: Set, p: Int => Boolean): Boolean = {
     def iter(a: Int): Boolean = {
-    	println(a)
+    	println(a, filter(s,p)(a))
+    	// if manage to reach end of bound without triggering a false from the
+    	// next else statement, successfully passed p for all values of a in s
+    	// within the bounds
       if (a > bound) true
-      else if (!filter(s,p)(a)) false
-      else iter(-bound+1)
+      // if a is in s, but does not satisfy p, return false
+      // does not return if
+      // a is not in s, a is in s and satisfies p
+      else if ((contains(s,a) && !filter(s,p)(a))) false
+      // this a still satifies p.
+      // move on to the next a
+      else iter(a+1)
     }
     iter(-bound)
   }                                               //> forall: (s: week2.assignment2.Set, p: Int => Boolean)Boolean
   
   
+  def fil = filter((x: Int) => (x < 10), (x:Int) => (x% 2 == 0))
+                                                  //> fil: => week2.assignment2.Set
+  !fil(10)                                        //> res16: Boolean = true
   forall((x: Int) => (x < 10), (x:Int) => (x% 2 == 0))
-                                                  //> res16: Boolean = false|
+                                                  //> (-10,true)
+                                                  //| (-9,false)
+                                                  //| res17: Boolean = false
                                                   
      forall((x: Int) => (x < 10), (x:Int) => (x <= 100))
+                                                  //> (-10,true)
+                                                  //| (-9,true)
+                                                  //| (-8,true)
+                                                  //| (-7,true)
+                                                  //| (-6,true)
+                                                  //| (-5,true)
+                                                  //| (-4,true)
+                                                  //| (-3,true)
+                                                  //| (-2,true)
+                                                  //| (-1,true)
+                                                  //| (0,true)
+                                                  //| (1,true)
+                                                  //| (2,true)
+                                                  //| (3,true)
+                                                  //| (4,true)
+                                                  //| (5,true)
+                                                  //| (6,true)
+                                                  //| (7,true)
+                                                  //| (8,true)
+                                                  //| (9,true)
+                                                  //| (10,false)
+                                                  //| (11,false)
+                                                  //| res18: Boolean = true
   
   
   // are all integers in set S from [-1000,1000] divisible by 2?
@@ -119,11 +155,12 @@ object assignment2 {
    * that satisfies `p`.
    */
     def exists(s: Set, p: Int => Boolean): Boolean = ???
+                                                  //> exists: (s: week2.assignment2.Set, p: Int => Boolean)Boolean
   
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-    def map(s: Set, f: Int => Int): Set = ???
+    def map(s: Set, f: Int => Int): Set = ???     //> map: (s: week2.assignment2.Set, f: Int => Int)week2.assignment2.Set
   
   /**
    * Displays the contents of a set
@@ -131,12 +168,12 @@ object assignment2 {
   def toString(s: Set): String = {
     val xs = for (i <- -bound to bound if contains(s, i)) yield i
     xs.mkString("{", ",", "}")
-  }
+  }                                               //> toString: (s: week2.assignment2.Set)String
 
   /**
    * Prints the contents of a set on the console.
    */
   def printSet(s: Set) {
     println(toString(s))
-  }
+  }                                               //> printSet: (s: week2.assignment2.Set)Unit
 }
