@@ -171,11 +171,16 @@ object assignment2 {
    * that satisfies `p`.
    */
     def exists(s: Set, p: Int => Boolean): Boolean = {
-    	forall(s, !p(_))
+    	!forall(s, !p(_))   // returns true if ALL members of s are outside p.
+    	                   // that means no member of s is in p
+    	                   // so shouldn't it return false? so negate it?
     }                                             //> exists: (s: week2.assignment2.Set, p: Int => Boolean)Boolean
   
   
-   exists( (x: Int) => x < 0, (x: Int) => x > -2) //> (-10,true,true)
+  	// s = x is less than 0
+  	// !p = is x less than or equal to -3?
+  	
+   exists( (x: Int) => x < -1, (x: Int) => x > -3)//> (-10,true,true)
                                                   //| (-9,true,true)
                                                   //| (-8,true,true)
                                                   //| (-7,true,true)
@@ -183,9 +188,10 @@ object assignment2 {
                                                   //| (-5,true,true)
                                                   //| (-4,true,true)
                                                   //| (-3,true,true)
-                                                  //| (-2,true,true)
-                                                  //| (-1,true,false)
-                                                  //| res20: Boolean = false
+                                                  //| (-2,true,false)
+                                                  //| res20: Boolean = true
+                                                  
+                                                 
   
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
