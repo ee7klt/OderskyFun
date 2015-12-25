@@ -196,8 +196,35 @@ object assignment2 {
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
    */
-    def map(s: Set, f: Int => Int): Set = ???     //> map: (s: week2.assignment2.Set, f: Int => Int)week2.assignment2.Set
-  
+    def map(s: Set, f: Int => Int): Set =   {
+  		
+  		
+  		// need to return a Set, which has signature (x:Int) => Boolean
+  		// if x is equal to f(k), where k is an element of s, then return true.
+  		// else false.
+  		// thus if s is unbounded can only check for a limited number of f(k)'s.
+  		//
+  		// (x:Int) => contains(s, f(x)) && contains(s,x)
+  		
+  		
+  		(x: Int) => {
+  			//def a = singletonSet(f(x))
+  			def iter(b: Int): Boolean = {
+  				if (b > bound) false
+  				else if (contains(s,b) && (f(b) == x)) true
+  				else iter(b+1)
+  			}
+  			
+  			iter(-bound)
+  		}
+  		
+  		
+  		}                                 //> map: (s: week2.assignment2.Set, f: Int => Int)week2.assignment2.Set
+  	
+  	
+  	def mapper = map((x:Int) => x < -1, (x:Int) => x + 4)
+                                                  //> mapper: => week2.assignment2.Set
+  	mapper(3)                                 //> res21: Boolean = false
   /**
    * Displays the contents of a set
    */
