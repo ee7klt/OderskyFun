@@ -206,25 +206,51 @@ object assignment2 {
   		//
   		// (x:Int) => contains(s, f(x)) && contains(s,x)
   		
-  		
-  		(x: Int) => {
-  			//def a = singletonSet(f(x))
-  			def iter(b: Int): Boolean = {
-  				if (b > bound) false
-  				else if (contains(s,b) && (f(b) == x)) true
-  				else iter(b+1)
-  			}
-  			
-  			iter(-bound)
-  		}
-  		
+  		(x:Int) => exists(s, (p:Int) => f(p) == x)
+  		//(x:Int) => false
   		
   		}                                 //> map: (s: week2.assignment2.Set, f: Int => Int)week2.assignment2.Set
   	
+  	def mapper1 = map((x:Int) => x < 0, (x:Int) => x + 4)
+                                                  //> mapper1: => week2.assignment2.Set
+  	mapper1(3)      //should return true      //> (-10,true,true)
+                                                  //| (-9,true,true)
+                                                  //| (-8,true,true)
+                                                  //| (-7,true,true)
+                                                  //| (-6,true,true)
+                                                  //| (-5,true,true)
+                                                  //| (-4,true,true)
+                                                  //| (-3,true,true)
+                                                  //| (-2,true,true)
+                                                  //| (-1,true,false)
+                                                  //| res21: Boolean = true
+  	// because x=-1 and -1 is in s
   	
-  	def mapper = map((x:Int) => x < -1, (x:Int) => x + 4)
-                                                  //> mapper: => week2.assignment2.Set
-  	mapper(3)                                 //> res21: Boolean = false
+  	def mapper2 = map((x:Int) => x < -1, (x:Int) => x + 4)
+                                                  //> mapper2: => week2.assignment2.Set
+  	mapper2(3)                                //> (-10,true,true)
+                                                  //| (-9,true,true)
+                                                  //| (-8,true,true)
+                                                  //| (-7,true,true)
+                                                  //| (-6,true,true)
+                                                  //| (-5,true,true)
+                                                  //| (-4,true,true)
+                                                  //| (-3,true,true)
+                                                  //| (-2,true,true)
+                                                  //| (-1,false,false)
+                                                  //| (0,false,true)
+                                                  //| (1,false,true)
+                                                  //| (2,false,true)
+                                                  //| (3,false,true)
+                                                  //| (4,false,true)
+                                                  //| (5,false,true)
+                                                  //| (6,false,true)
+                                                  //| (7,false,true)
+                                                  //| (8,false,true)
+                                                  //| (9,false,true)
+                                                  //| (10,false,true)
+                                                  //| (11,false,true)
+                                                  //| res22: Boolean = false
   /**
    * Displays the contents of a set
    */
