@@ -34,8 +34,8 @@ class Rational(x: Int, y: Int) {
 
   private def gcd(a: Int, b: Int): Int = if (b == 0) a else gcd(b, a % b)
   private val g = gcd(x, y)
-  def numer = x / g
-  def denom = y / g
+  def numer = x
+  def denom = y
 
   // when is this rational less than the other?
   def less(that: Rational) = this.numer * that.denom < that.numer * this.denom
@@ -52,7 +52,7 @@ class Rational(x: Int, y: Int) {
       denom * that.denom)
 
   override def toString =
-    numer + "/" + denom
+    numer/g + "/" + denom/g
 
   def neg: Rational =
     new Rational(-numer, denom)
