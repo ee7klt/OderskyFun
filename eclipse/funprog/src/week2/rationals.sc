@@ -19,6 +19,10 @@ object rationals {
   x.add(y)                                        //> res3: week2.Rational = 7/6
   x.neg                                           //> res4: week2.Rational = -1/2
 	x.subtract(y)                             //> res5: week2.Rational = -1/6
+	
+	val z = new Rational(3,2)                 //> z  : week2.Rational = 3/2
+	x.subtract(y).subtract(z)                 //> res6: week2.Rational = -20/12
+	
 
 }
 
@@ -39,10 +43,10 @@ class Rational(x: Int, y: Int) {
   override def toString =
     numer + "/" + denom
 
-  def neg =
+  def neg: Rational =
     new Rational(-numer, denom)
   
   def subtract(that:Rational) =
-  	this.add(that.neg)
+  	add(that.neg)
 
 }
