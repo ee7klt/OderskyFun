@@ -19,13 +19,14 @@ object rationals {
   x + y                                           //> res3: week2.Rational = 7/6
   x + y                                           //> res4: week2.Rational = 7/6
   -x                                              //> res5: week2.Rational = 1/-2
-  x.-(y)                                          //> res6: week2.Rational = 1/-6
+  -y                                              //> res6: week2.Rational = -2/3
+  x.-(y)                                          //> res7: week2.Rational = 1/-6
 
   val z = new Rational(3, 2)                      //> z  : week2.Rational = 3/2
-  x - y - z                                       //> res7: week2.Rational = -5/3
-  x < y                                           //> res8: Boolean = true
-  x.max(y)                                        //> res9: week2.Rational = 2/3
-  new Rational(2)                                 //> res10: week2.Rational = 2/1
+  x - y - z                                       //> res8: week2.Rational = -5/3
+  x < y                                           //> res9: Boolean = true
+  x.max(y)                                        //> res10: week2.Rational = 2/3
+  new Rational(2)                                 //> res11: week2.Rational = 2/1
 }
 
 class Rational(x: Int, y: Int) {
