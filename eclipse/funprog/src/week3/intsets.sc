@@ -1,12 +1,12 @@
 package week3
 
 object intsets {
-  val t1 = new NonEmpty(3, new Empty, new Empty)
-  val t2 = t1 incl 4
-  val t3 = t2 incl 1
-  val t4 = t3 incl 5
- // val t5 = new Empty
- // val t6 = t5 union t4
+  val t1 = new NonEmpty(3, new Empty, new Empty)  //> t1  : week3.NonEmpty = {.3.}
+  val t2 = t1 incl 4                              //> t2  : week3.IntSet = {.3{.4.}}
+  val t3 = t2 incl 1                              //> t3  : week3.IntSet = {{.1.}3{.4.}}
+  val t4 = t3 incl 5                              //> t4  : week3.IntSet = {{.1.}3{.4{.5.}}}
+  val t5 = new Empty                              //> t5  : week3.Empty = .
+ val t6 = t5 union t4                             //> t6  : week3.IntSet = {{.1.}3{.4{.5.}}}
 }
 
 abstract class IntSet {
@@ -27,7 +27,8 @@ class Empty extends IntSet {
   // return a new set that is the result of
   // unioning the empty set with the set "other"
   // this should just return the set "other"
-  def union(other: IntSet): IntSet = other
+   def union(other: IntSet): IntSet = other
+  
   override def toString = "."
 }
 
@@ -42,4 +43,6 @@ class NonEmpty(elem: Int, left: IntSet, right: IntSet) extends IntSet {
     else if (x > elem) new NonEmpty(elem, left, right incl x)
     else this
   override def toString = "{" + left + elem + right + "}"
+  
+    def union(other: IntSet): IntSet = new Empty
 }
