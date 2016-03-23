@@ -4,17 +4,10 @@ object Natural {
   println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
   
    Zero;                                          //> res0: nat.scala.Zero.type = nat.scala.Zero$@34ce8af7
-   val x = Zero.predecessor;                      //> java.lang.Error: 0.predecessor
-                                                  //| 	at nat.scala.Zero$.predecessor(Nat.scala:26)
-                                                  //| 	at nat.scala.Natural$$anonfun$main$1.apply$mcV$sp(nat.scala.Natural.scal
-                                                  //| a:7)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
-                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
-                                                  //| orksheetSupport.scala:65)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
-                                                  //| ksheetSupport.scala:75)
-                                                  //| 	at nat.scala.Natural$.main(nat.scala.Natural.scala:3)
-                                                  //| 	at nat.scala.Natural.main(nat.scala.Natural.scala)
- 
+   val x = new Succ(Zero); // 1                   //> x  : nat.scala.Succ = nat.scala.Succ@b684286
+   val y = x.successor;    // 2                   //> y  : nat.scala.Nat = nat.scala.Succ@880ec60
+   val z = x + y;           // 3                  //> z  : nat.scala.Nat = nat.scala.Succ@3f3afe78
+   val a = y -  x;                                //> a  : nat.scala.Nat = nat.scala.Succ@b684286
+   
+   
 }
