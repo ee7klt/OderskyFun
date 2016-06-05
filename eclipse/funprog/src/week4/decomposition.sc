@@ -18,5 +18,7 @@ object decomposition {
 
 val mysum = new Sum(num1,num2)                    //> mysum  : week4.Sum = week4.Sum@880ec60
  val myeval = eval(mysum)                         //> myeval  : Int = 5
+ 
+
   
 }
