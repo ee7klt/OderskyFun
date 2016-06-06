@@ -116,11 +116,28 @@ import org.scalatest.junit.JUnitRunner
   test("sum of a few numbers") {
     assert(sum(List(1,2,0)) === 3)
   }
+  
+  test("sum of empty list") {
+    assert( sum(List()) === 0)
+  }
+  
+   test("sum of negative numbers") {
+    assert( sum(List(-9,0,-5)) === -14)
+  }
 
   test("max of a few numbers") {
     assert(max(List(3, 7, 2)) === 7)
   }
+  
+    test("max of a negative numbers") {
+    assert(max(List(-3, -7, -2)) === -2)
+  }
 
+      test("max of empty list") {
+    intercept[NoSuchElementException] {
+      max(List())
+    }
+  }
 
 
 }

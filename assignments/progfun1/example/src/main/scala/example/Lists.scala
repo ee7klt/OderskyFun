@@ -25,7 +25,7 @@ object Lists {
    */
     def sum(xs: List[Int]): Int = { 
       if (xs.isEmpty) return 0
-      else return 1 + sum(xs.tail)
+      else return xs.head + sum(xs.tail)
     }
    
   /**
@@ -42,6 +42,13 @@ object Lists {
    * @throws java.util.NoSuchElementException if `xs` is an empty list
    */
     def max(xs: List[Int]): Int = {
-      return 1
+      if (xs.isEmpty) throw new java.util.NoSuchElementException
+      def aux(a: Int, b: List[Int]): Int = {
+        println (a,b)
+        if (b.isEmpty) return a
+        else if (a > b.head) aux(a,b.tail) 
+        else aux(b.head, b.tail)
+      } 
+      aux(xs.head, xs.tail)
     }
   }
