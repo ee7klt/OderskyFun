@@ -81,6 +81,9 @@ class FunSetSuite extends FunSuite {
     val s5 = (x:Int) => x>=4 && x<=10
      val p1 = (x:Int) => x>=4 && x<=10
      val p2 = (x:Int) => x>= -1 && x<=6
+     val f1 = (x:Int) => x*x                      // mapping function
+     val s6 = (x:Int) => x==1 || x==2 || x == 3   // map input
+     val s7 = (x:Int) => x==1 || x==4 || x==9  // map output
      
   }
 
@@ -187,6 +190,21 @@ class FunSetSuite extends FunSuite {
     new TestSets {
       val s = forall(s4, p1)
       assert(!s, "forall 2")
+    }
+  }
+     
+      test("exists tests if there is a bounded integer within s that also satisfies p") {
+    new TestSets {
+      val s = exists(s4, p1)
+      assert(s, "exists 1")
+    }
+  }
+      
+       test("map returns a set transformed by applying `f` to each element of `s`.") {
+    new TestSets {
+      val s = map(s6, f1)
+      assert(s(4), "map 1")
+       assert(!s(2), "map 2")
     }
   }
 

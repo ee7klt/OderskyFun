@@ -86,13 +86,13 @@ object FunSets {
    * that satisfies `p`.
    * tests whether a set contains at least one element for which the given predicate is true.
    */
-    def exists(s: Set, p: Int => Boolean): Boolean = ???
+    def exists(s: Set, p: Int => Boolean): Boolean = !forall(s, !p(_))
   
   /**
    * Returns a set transformed by applying `f` to each element of `s`.
+   * for a given value x, there exists some value p from s such that f(p) == x 
    */
-    def map(s: Set, f: Int => Int): Set = ???
-  
+    def map(s: Set, f: Int => Int): Set = (x:Int) => exists(s, (p:Int) => f(p) == x)
   /**
    * Displays the contents of a set
    */
