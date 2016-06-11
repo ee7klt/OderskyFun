@@ -78,25 +78,31 @@ object Huffman {
    *       println("integer is  : "+ theInt)
    *   }
    */
-    def times(chars: List[Char]): List[(Char, Int)] = {
+    def times(chars: List[Char]): List[(Char, Int)] = chars match {
+    
+    case Nil => Nil
+    case x::xs => times(xs)
+    
+    
+     
    
-      def helper(acc: List[(Char, Int)], xs:List[Char]) {
-        
-       // List[(Char, Int)]()
-        
-        val a = acc.filter(x => x._1 == xs.head)
-        if (xs.isEmpty) acc  // all characters accounted for
-        else if (a != List()) {
-          acc.map(x => if (x._1 == xs.head) (x._1, x._2 + 1))
-        }              // case where character already in list
-        else helper((xs.head,1)::acc,xs.tail) // case where character not in list
-      }
-      
-      
-    val acc: List[(Char, Int)] = Nil
-    helper(acc, chars)
+//      def helper(acc: List[(Char, Int)], xs:List[Char]) {
+//        
+//       // List[(Char, Int)]()
+//        
+//        val a = acc.filter(x => x._1 == xs.head)
+//        if (xs.isEmpty) acc  // all characters accounted for
+//        else if (a != List()) {
+//          acc.map(x => if (x._1 == xs.head) (x._1, x._2 + 1))
+//        }              // case where character already in list
+//        else helper((xs.head,1)::acc,xs.tail) // case where character not in list
+//      }
+//      
+//      
+//    val acc: List[(Char, Int)] = Nil
+//    helper(acc, chars)
     
-    
+    List[(Char, Int)]()
     
   }
   
