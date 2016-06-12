@@ -48,7 +48,7 @@ val numbers = List(1, 2, 3, 4)                    //> numbers  : List[Int] = Lis
        // ys.head::Nil  // need someway of carrying around the accumulated head
        else {  // we've found the first element in the list to which x is less. so we need to place x right before this element
        println("else clause")
-       y::x::ys}
+       x::xs}
        
      }
 	  
@@ -77,7 +77,7 @@ isort(List(3,5,1))                                //> case 1
                                                   //| case 3
                                                   //| (3,List(5))
                                                   //| else clause
-                                                  //| res2: List[Int] = List(1, 5, 3)
+                                                  //| res2: List[Int] = List(1, 3, 5)
 // test the else clause of case 3
 isort(List(10,3,5,1))                             //> case 1
                                                   //| (1,List())
@@ -93,16 +93,16 @@ isort(List(10,3,5,1))                             //> case 1
                                                   //| (3,List(5))
                                                   //| else clause
                                                   //| case 3
-                                                  //| (10,List(1, 5, 3))
+                                                  //| (10,List(1, 3, 5))
                                                   //| if clause
                                                   //| case 3
-                                                  //| (10,List(5, 3))
+                                                  //| (10,List(3, 5))
                                                   //| if clause
                                                   //| case 3
-                                                  //| (10,List(3))
+                                                  //| (10,List(5))
                                                   //| if clause
                                                   //| case 1
                                                   //| (10,List())
-                                                  //| res3: List[Int] = List(1, 5, 3, 10)
+                                                  //| res3: List[Int] = List(1, 3, 5, 10)
 
   }
