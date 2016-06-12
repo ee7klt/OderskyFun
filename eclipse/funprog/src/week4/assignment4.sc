@@ -32,11 +32,11 @@ val numbers = List(1, 2, 3, 4)                    //> numbers  : List[Int] = Lis
      	println(x, xs)
      	x::Nil
      }
-     case y::Nil => {  // xs is a list of a single element
-     println("case 2")
-     println(x,xs)
-     	if (x>y) List(y,x) else List(x,y)
-     }
+    // case y::Nil => {  // xs is a list of a single element
+   //  println("case 2")
+   //  println(x,xs)
+   //  	if (x>y) List(y,x) else List(x,y)
+   //  }
      case y::ys => {           // xs is a list of two or more elements
        println("case 3")
        println(x,xs)
@@ -66,32 +66,43 @@ def isort(xs: List[Int]): List[Int] = xs match {
 // test the if clause of case 3
 isort(List(3,5,1))                                //> case 1
                                                   //| (1,List())
-                                                  //| case 2
+                                                  //| case 3
                                                   //| (5,List(1))
+                                                  //| if clause
+                                                  //| case 1
+                                                  //| (5,List())
                                                   //| case 3
                                                   //| (3,List(1, 5))
                                                   //| if clause
-                                                  //| case 2
+                                                  //| case 3
                                                   //| (3,List(5))
-                                                  //| res2: List[Int] = List(1, 3, 5)
+                                                  //| else clause
+                                                  //| res2: List[Int] = List(1, 5, 3)
 // test the else clause of case 3
 isort(List(10,3,5,1))                             //> case 1
                                                   //| (1,List())
-                                                  //| case 2
+                                                  //| case 3
                                                   //| (5,List(1))
+                                                  //| if clause
+                                                  //| case 1
+                                                  //| (5,List())
                                                   //| case 3
                                                   //| (3,List(1, 5))
                                                   //| if clause
-                                                  //| case 2
+                                                  //| case 3
                                                   //| (3,List(5))
+                                                  //| else clause
                                                   //| case 3
-                                                  //| (10,List(1, 3, 5))
+                                                  //| (10,List(1, 5, 3))
                                                   //| if clause
                                                   //| case 3
-                                                  //| (10,List(3, 5))
+                                                  //| (10,List(5, 3))
                                                   //| if clause
-                                                  //| case 2
-                                                  //| (10,List(5))
-                                                  //| res3: List[Int] = List(1, 3, 5, 10)
+                                                  //| case 3
+                                                  //| (10,List(3))
+                                                  //| if clause
+                                                  //| case 1
+                                                  //| (10,List())
+                                                  //| res3: List[Int] = List(1, 5, 3, 10)
 
   }
