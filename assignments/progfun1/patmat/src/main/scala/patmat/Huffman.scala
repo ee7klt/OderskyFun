@@ -80,8 +80,14 @@ object Huffman {
    */
     def times(chars: List[Char]): List[(Char, Int)] = chars match {
     
-    case Nil => Nil
-    case x::xs => times(xs)
+    
+    case Nil => Nil   // no characters 
+    case x::xs => {
+      ('x',1)::times(xs)
+      }
+    
+    // character already encountered before
+    // character not yet encountered
     
     
      

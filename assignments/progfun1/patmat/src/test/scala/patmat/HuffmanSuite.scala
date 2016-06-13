@@ -33,10 +33,8 @@ class HuffmanSuite extends FunSuite {
     assert(string2Chars("hello, world") === List('h', 'e', 'l', 'l', 'o', ',', ' ', 'w', 'o', 'r', 'l', 'd'))
   }
 
-   test("time of bookkeeper") {
-    new TestTrees {
-      assert(times(string2Chars("bookkeeper")) === List(('b',1),('o',2),('k',2),('e',3),('p',1),('r',1)))
-    }
+   test("times function test") {
+      assert(times(List('a', 'b')) === List(('a',1),('b',1)))
   }
 
 

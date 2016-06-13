@@ -104,5 +104,17 @@ isort(List(10,3,5,1))                             //> case 1
                                                   //| case 1
                                                   //| (10,List())
                                                   //| res3: List[Int] = List(1, 3, 5, 10)
+                                                  
+                                                  
+ def times(chars: List[Char]): List[(Char, Int)] = chars match {
+  case Nil => Nil   // no characters
+  case x::xs => (x,1)::times(xs)
+   }                                              //> times: (chars: List[Char])List[(Char, Int)]
+   
+   times(List('a','b'))                           //> res4: List[(Char, Int)] = List((a,1), (b,1))
+                                                  
 
   }
+  
+  
+  
