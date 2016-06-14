@@ -41,7 +41,8 @@ def removeAt[T](xs: List[T], n: Int): List[T] = xs match {
 	case List() => List()
 	case y::ys => {
 		if (n > xs.length) xs
-		else (xs take n) ::: (xs drop n+1)
+		else if (n == 0) ys
+		else y::removeAt(ys,n-1)
 	}
 	
 }                                                 //> removeAt: [T](xs: List[T], n: Int)List[T]
