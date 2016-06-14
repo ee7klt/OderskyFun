@@ -83,7 +83,7 @@ object Huffman {
     
     case Nil => Nil   // no characters 
     case x::xs => {
-      ('x',1)::times(xs)
+      (x,1)::times(xs)
       }
     
     // character already encountered before

@@ -39,10 +39,24 @@ reverse(List(1,2,3))                              //> res3: List[Int] = List(3, 
 
 def removeAt[T](xs: List[T], n: Int): List[T] = xs match {
 	case List() => List()
-	case y::ys => List()
+	case y::ys => {
+		if (n > xs.length) xs
+		else if (n == (xs indexOf y)) {
+		println(n, y)
+		 removeAt(ys,n)
+		}
+		else {
+		println (n, y, xs indexOf y, xs)
+		y::removeAt(ys,n)
+		}
+	}
+	
 }                                                 //> removeAt: [T](xs: List[T], n: Int)List[T]
 
- removeAt(List('a','b','c'),1) == List('a','c')   //> res4: Boolean = false
-
+ removeAt(List('a','b','c'),1)                    //> (1,a,0,List(a, b, c))
+                                                  //| (1,b,0,List(b, c))
+                                                  //| (1,c,0,List(c))
+                                                  //| res4: List[Char] = List(a, b, c)
+List(1,2,3) indexOf 2                             //> res5: Int = 1
 
 }
