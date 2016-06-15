@@ -71,20 +71,36 @@ isort(List(10,3,5,1))                             //> res3: List[Int] = List(1, 
                                                   
  def times(chars: List[Char]): List[(Char, Int)] = chars match {
   case Nil => Nil   // no characters
-  case x::xs => (x,1)::times(xs)
+  case x::xs => iterChars(chars)
    }                                              //> times: (chars: List[Char])List[(Char, Int)]
   
-  def helper(acc: List[(Char,Int)], c: Char):List[(Char,Int)] = {
+  
+  def iterChars(chars: List[Char]): List[(Char, Int)] = chars match {
+    case List() => List()
+    case x::xs => helper(iterChars(xs), x)
+  }                                               //> iterChars: (chars: List[Char])List[(Char, Int)]
+  
+  def helper(acc: List[(Char,Int)], c: Char):List[(Char,Int)] = acc match {
   	
   	//val i = acc._1 indexOf c
-     List(('a',1))
+    case List() => (c,1)::Nil
+    case x::xs => if (x._1 == c) (x._1, x._2+1)::xs else x::helper(xs, c)
+
   }                                               //> helper: (acc: List[(Char, Int)], c: Char)List[(Char, Int)]
   
-   
-   times(List('a','b'))                           //> res4: List[(Char, Int)] = List((a,1), (b,1))
-      
    val a = List(('a',1),('b',2))                  //> a  : List[(Char, Int)] = List((a,1), (b,2))
-   a.filter(x => x._1 == 'a')                     //> res5: List[(Char, Int)] = List((a,1))
+  val b = List('a','b','b','c','a')               //> b  : List[Char] = List(a, b, b, c, a)
+  helper(a, 'd')                                  //> res4: List[(Char, Int)] = List((a,1), (b,2), (d,1))
+  helper(a, 'a')                                  //> res5: List[(Char, Int)] = List((a,2), (b,2))
+  helper(a,'b')                                   //> res6: List[(Char, Int)] = List((a,1), (b,3))
+  
+  iterChars(b)                                    //> res7: List[(Char, Int)] = List((a,2), (c,1), (b,2))
+  
+  
+     a.filter(x => x._1 == 'a')                   //> res8: List[(Char, Int)] = List((a,1))
+   a.map(x => (x._1,x._2+1))                      //> res9: List[(Char, Int)] = List((a,2), (b,3))
+   
+      times(b)                                    //> res10: List[(Char, Int)] = List((a,2), (c,1), (b,2))
   }
   
   
