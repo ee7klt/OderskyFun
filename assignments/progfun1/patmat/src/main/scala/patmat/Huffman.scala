@@ -78,39 +78,24 @@ object Huffman {
    *       println("integer is  : "+ theInt)
    *   }
    */
-    def times(chars: List[Char]): List[(Char, Int)] = chars match {
+ def times(chars: List[Char]): List[(Char, Int)] = chars match {
+  case Nil => Nil   // no characters
+  case x::xs => iterChars(chars)
+   }                                              //> times: (chars: List[Char])List[(Char, Int)]
+  
+  
+  def iterChars(chars: List[Char]): List[(Char, Int)] = chars match {
+    case List() => List()
+    case x::xs => helper(iterChars(xs), x)  
+  }                                               //> iterChars: (chars: List[Char])List[(Char, Int)]
+  
+  def helper(acc: List[(Char,Int)], c: Char):List[(Char,Int)] = acc match {
     
-    
-    case Nil => Nil   // no characters 
-    case x::xs => {
-      (x,1)::times(xs)
-      }
-    
-    // character already encountered before
-    // character not yet encountered
-    
-    
-     
-   
-//      def helper(acc: List[(Char, Int)], xs:List[Char]) {
-//        
-//       // List[(Char, Int)]()
-//        
-//        val a = acc.filter(x => x._1 == xs.head)
-//        if (xs.isEmpty) acc  // all characters accounted for
-//        else if (a != List()) {
-//          acc.map(x => if (x._1 == xs.head) (x._1, x._2 + 1))
-//        }              // case where character already in list
-//        else helper((xs.head,1)::acc,xs.tail) // case where character not in list
-//      }
-//      
-//      
-//    val acc: List[(Char, Int)] = Nil
-//    helper(acc, chars)
-    
-    List[(Char, Int)]()
-    
-  }
+    //val i = acc._1 indexOf c
+    case List() => (c,1)::Nil
+    case x::xs => if (x._1 == c) (x._1, x._2+1)::xs else x::helper(xs, c)
+
+  } 
   
   /**
    * Returns a list of `Leaf` nodes for a given frequency table `freqs`.
@@ -119,7 +104,11 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = ???
+    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = freqs match {
+      case Nil => Nil
+      case x::xs => (Leaf(x._1, x._2)::makeOrderedLeafList(xs)).sortBy(_.weight)
+      
+    }
   
   /**
    * Checks whether the list `trees` contains only one single code tree.

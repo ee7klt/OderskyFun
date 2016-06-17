@@ -34,7 +34,7 @@ class HuffmanSuite extends FunSuite {
   }
 
    test("times function test") {
-      assert(times(List('a', 'b')) === List(('a',1),('b',1)))
+      assert(times(List('a', 'b','a')) === List(('a',2),('b',1)))
   }
 
 
