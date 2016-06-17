@@ -101,6 +101,20 @@ isort(List(10,3,5,1))                             //> res3: List[Int] = List(1, 
    a.map(x => (x._1,x._2+1))                      //> res9: List[(Char, Int)] = List((a,2), (b,3))
    
       times(b)                                    //> res10: List[(Char, Int)] = List((a,2), (c,1), (b,2))
+      
+      
+      
+      case class User(name: String, age: Int)
+      val fred = User("fred", 32)                 //> fred  : assignment4.User = User(fred,32)
+      val wilma = User("wilma", 29)               //> wilma  : assignment4.User = User(wilma,29)
+      val betty = User("betty", 21)               //> betty  : assignment4.User = User(betty,21)
+      val users = List(wilma, betty, fred)        //> users  : List[assignment4.User] = List(User(wilma,29), User(betty,21), User
+                                                  //| (fred,32))
+      val sorted = users.sorted(Ordering.by((_: User).age))
+                                                  //> sorted  : List[assignment4.User] = List(User(betty,21), User(wilma,29), Use
+                                                  //| r(fred,32))
+      val sorted2 = users.sortBy(_.age)           //> sorted2  : List[assignment4.User] = List(User(betty,21), User(wilma,29), Us
+                                                  //| er(fred,32))
   }
   
   
