@@ -64,6 +64,18 @@ test("sortCodeTreeList 3") {
   val leaflist = List(Leaf('x', 6))
   assert(sortCodeTreeList(leaflist) === List(Leaf('x', 6)))
 }
+
+test("sortCodeTreeList for list of forks") {
+  val forklist = List(
+            Fork(Leaf('a',2),Leaf('b',3),List('a', 'b'),5),
+             Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3)
+            )
+  val sortedforklist =  List(
+        Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3),
+            Fork(Leaf('a',2),Leaf('b',3),List('a', 'b'),5)
+            )
+  assert(sortCodeTreeList(forklist) === sortedforklist)
+}
   
   test("combine of some leaf list 1") {
     val leaflist = List(Leaf('e', 1), Leaf('t', 2), Leaf('x', 4))
@@ -75,6 +87,63 @@ test("sortCodeTreeList 3") {
     assert(combine(leaflist) === List( Leaf('x',4), Fork(Leaf('e',1),Leaf('t',5),List('e', 't'),6)))
   }
 
+
+    
+    test("until applied to a list of leafs 1") {
+      val leaflist = List(Leaf('e', 1), Leaf('t', 2), Leaf('x', 4))
+    assert(
+      until(singleton,combine)(leaflist) === 
+      List(
+          Fork(
+            Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), 
+            Leaf('x',4),
+            List('e','t','x'),
+            7
+            )
+          )
+      )   
+    
+    }
+    
+      test("until applied to a list of leafs 2") {
+      val leaflist = List(Leaf('e', 2), Leaf('t', 3), Leaf('x', 4))
+      val untiledleaflist =    
+        List(
+          Fork(
+            Leaf('x',4),
+            Fork(Leaf('e',2),Leaf('t',3),List('e', 't'),5), 
+            List('x','e','t'),
+            9
+            )
+          )
+    assert(
+      until(singleton,combine)(leaflist) === untiledleaflist
+  
+      )   
+    
+    }
+    
+     test("until applied to a list of forks") {
+      val forklist = List(
+          Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3),
+            Fork(Leaf('a',2),Leaf('b',3),List('a', 'b'),5)
+             
+            )
+    assert(
+      until(singleton,combine)(forklist) === 
+      List(
+          Fork(
+            Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), 
+            Fork(Leaf('a',2),Leaf('b',3),List('a', 'b'),5),
+            List('e','t','a','b'),
+            8
+            )
+          )
+      )   
+    
+    }
+    
+    
 
   test("decode and encode a very short text should be identity") {
     new TestTrees {
