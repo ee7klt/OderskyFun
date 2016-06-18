@@ -34,6 +34,7 @@ object Huffman {
     def chars(tree: CodeTree): List[Char] = tree match {
       
       case Fork(left, right, chars, weight) => chars
+      case Leaf(char,weight) => char::Nil
       
     } // tree match ...
   
@@ -104,16 +105,25 @@ object Huffman {
    * head of the list should have the smallest weight), where the weight
    * of a leaf is the frequency of the character.
    */
-    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = freqs match {
-      case Nil => Nil
-      case x::xs => (Leaf(x._1, x._2)::makeOrderedLeafList(xs)).sortBy(_.weight)
+    def makeOrderedLeafList(freqs: List[(Char, Int)]): List[Leaf] = {
+     makeOrderedLeafListHelper(freqs).sortBy(_.weight)
       
+    }
+    
+    def makeOrderedLeafListHelper(freqs: List[(Char, Int)]): List[Leaf] = freqs match {
+       case Nil => Nil
+       case x::xs => (Leaf(x._1, x._2)::makeOrderedLeafList(xs))
     }
   
   /**
    * Checks whether the list `trees` contains only one single code tree.
    */
-    def singleton(trees: List[CodeTree]): Boolean = ???
+    def singleton(trees: List[CodeTree]): Boolean = trees match {
+      case Nil => false
+      case x::Nil => true
+      case x::xs => false
+      
+    }
   
   /**
    * The parameter `trees` of this function is a list of code trees ordered
@@ -127,7 +137,27 @@ object Huffman {
    * If `trees` is a list of less than two elements, that list should be returned
    * unchanged.
    */
-    def combine(trees: List[CodeTree]): List[CodeTree] = ???
+    def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
+      case Nil => Nil
+      case x::Nil => trees
+      case x1::x2::xs => sortCodeTreeList(createDuplex(x1,x2)::xs) 
+      
+      
+    }
+    
+    def createDuplex(t1: CodeTree, t2: CodeTree): Fork =  {
+      Fork(t1, t2, chars(t1):::chars(t2), weight(t1) + weight(t2))
+    }
+    
+    def sortCodeTreeList(trees: List[CodeTree]): List[CodeTree] = trees match {
+      case Nil => Nil
+      case x::Nil => trees
+      case x::xs => {
+        if (weight(x) > weight(xs.head)) {
+          xs.head::sortCodeTreeList(x::xs.tail)
+        } else x::xs
+      }
+    }
   
   /**
    * This function will be called in the following way:

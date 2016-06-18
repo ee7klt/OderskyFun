@@ -42,10 +42,37 @@ class HuffmanSuite extends FunSuite {
     assert(makeOrderedLeafList(List(('t', 2), ('e', 1), ('x', 3))) === List(Leaf('e',1), Leaf('t',2), Leaf('x',3)))
   }
 
+test("singleton returns true for a List of one element, false otherwise") {
+  new TestTrees {
+  assert(singleton(List(t1,t2)) === false)
+  assert(singleton(List(t1)) === true)
+    assert(singleton(List()) === false)
+  }
+}
 
-  test("combine of some leaf list") {
+test("sortCodeTreeList 1") {
+  val leaflist = List(Leaf('e', 3), Leaf('t', 2), Leaf('x', 4))
+  assert(sortCodeTreeList(leaflist) === List(Leaf('t', 2), Leaf('e', 3), Leaf('x', 4)))
+}
+
+test("sortCodeTreeList 2") {
+  val leaflist = List(Leaf('e', 6), Leaf('t', 2), Leaf('x', 4))
+  assert(sortCodeTreeList(leaflist) === List(Leaf('t', 2), Leaf('x', 4), Leaf('e', 6)))
+}
+
+test("sortCodeTreeList 3") {
+  val leaflist = List(Leaf('x', 6))
+  assert(sortCodeTreeList(leaflist) === List(Leaf('x', 6)))
+}
+  
+  test("combine of some leaf list 1") {
     val leaflist = List(Leaf('e', 1), Leaf('t', 2), Leaf('x', 4))
     assert(combine(leaflist) === List(Fork(Leaf('e',1),Leaf('t',2),List('e', 't'),3), Leaf('x',4)))
+  }
+  
+    test("combine of some leaf list 2") {
+    val leaflist = List(Leaf('e', 1), Leaf('t', 5), Leaf('x', 4))
+    assert(combine(leaflist) === List( Leaf('x',4), Fork(Leaf('e',1),Leaf('t',5),List('e', 't'),6)))
   }
 
 
