@@ -140,7 +140,7 @@ object Huffman {
     def combine(trees: List[CodeTree]): List[CodeTree] = trees match {
       case Nil => Nil
       case x::Nil => trees
-      case x1::x2::xs => sortCodeTreeList(createDuplex(x1,x2)::xs) 
+      case x1::x2::xs => sortCodeTreeList(makeCodeTree(x1,x2)::xs) 
       
       
     }
