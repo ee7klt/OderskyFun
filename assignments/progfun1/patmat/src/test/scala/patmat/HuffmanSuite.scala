@@ -143,6 +143,25 @@ test("sortCodeTreeList for list of forks") {
     
     }
     
+     
+           test("createCodeTree applied to a List of characters") {
+      val chars = List('x','t','x','e','x','x','e','t','t')       
+      val leaflist = List(Leaf('e', 2), Leaf('t', 3), Leaf('x', 4))
+      val codetree =    
+       
+          Fork(
+            Leaf('x',4),
+            Fork(Leaf('e',2),Leaf('t',3),List('e', 't'),5), 
+            List('x','e','t'),
+            9
+            )
+          
+    assert(
+      createCodeTree(chars) === codetree
+  
+      )   
+    
+    }
     
 
   test("decode and encode a very short text should be identity") {

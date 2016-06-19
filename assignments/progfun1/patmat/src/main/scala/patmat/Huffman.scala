@@ -85,11 +85,38 @@ object Huffman {
    }                                              //> times: (chars: List[Char])List[(Char, Int)]
   
   
+  /**
+   * iterChars
+   *    used with times. iterates through all characters in the stream 
+   *    and inserts each one in to a histogram of character frequencies
+   * 
+   * @param List[Char]
+   *    List of characters to be histogrammed
+   * 
+   * @output List[(Char, Int)]
+   *    List of (Char,Int) pairs. Each pair is the character and its frequency
+   */
+  
   def iterChars(chars: List[Char]): List[(Char, Int)] = chars match {
     case List() => List()
     case x::xs => helper(iterChars(xs), x)  
   }                                               //> iterChars: (chars: List[Char])List[(Char, Int)]
   
+  
+  /**
+   * helper
+   *    used with times. inserts a single character in to a histogram accumulator
+   *
+   * @param acc: List[(Char,Int)]
+   *    accumulator for character frequencies
+   * 
+   * @param c: Char
+   *    next character in line to be binned. If a bin does not exist, create new bin with count 1
+   * 
+   * @output List[(Char, Int)]
+   *    histogram updated with the latest scanned character from the character stream
+   *     
+   */
   def helper(acc: List[(Char,Int)], c: Char):List[(Char,Int)] = acc match {
     
     //val i = acc._1 indexOf c
@@ -145,11 +172,32 @@ object Huffman {
       
     }
     
-    def createDuplex(t1: CodeTree, t2: CodeTree): Fork =  {
+    
+    /**
+     * createDuplex
+     * @param (CodeTree, CodeTree) 
+     *    ordered pair of code trees (by weight)
+     * @output Fork
+     *    the pair of code trees combined in to a single node (fork)
+     * 
+     */
+    def createDuplex(t1: CodeTree, t2: CodeTree): Fork =  {  // this is a duplicate of makeCodeTree
       Fork(t1, t2, chars(t1):::chars(t2), weight(t1) + weight(t2))
     }
     
-    def sortCodeTreeList(trees: List[CodeTree]): List[CodeTree] = trees match {
+    
+    /**
+     * sortCodeTreeList
+     * @param List[CodeTree]: 
+     *        first element is to be inserted (in order) in to the tail of the List.
+     *        (Tail of List is already ordered) 
+     * @output List[CodeTree]: 
+     *        Ordered List (by weight)
+     * 
+     * takes the newly created Fork (first element) and inserts it somewhere along the rest of the 
+     * List, such that the List is ordered in ascending order of weights
+     */
+    def sortCodeTreeList(trees: List[CodeTree]): List[CodeTree] = trees match {  
       case Nil => Nil
       case x::Nil => trees
       case x::xs => {
@@ -190,7 +238,15 @@ object Huffman {
    * The parameter `chars` is an arbitrary text. This function extracts the character
    * frequencies from that text and creates a code tree based on them.
    */
-    def createCodeTree(chars: List[Char]): CodeTree = ???
+    def createCodeTree(chars: List[Char]): CodeTree = {
+//      val freq = times(chars)
+//      val leaflist = makeOrderedLeafList(freq)
+//      val folded = until(singleton, combine)(leaflist)
+      
+      until(singleton,combine)(makeOrderedLeafList(times(chars))).head
+      
+      //Leaf('a',1)
+    }
   
 
   // Part 3: Decoding
