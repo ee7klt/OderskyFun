@@ -163,6 +163,46 @@ test("sortCodeTreeList for list of forks") {
     
     }
     
+   test("decode using t1") {
+      new TestTrees {
+      assert(
+         decode(t1, List(0))    
+          === List('a')
+          
+      )
+    }
+   } 
+   
+    test("decode using t1 2") {
+      new TestTrees {
+      assert(
+         decode(t1, List(0,1))    
+          === List('a','b')
+          
+      )
+    }
+   }
+   
+    
+     test("decode using t2") {
+      new TestTrees {
+      assert(
+         decode(t2, List(0,0,1,0,1))    
+          === List('a','d','b')
+          
+      )
+    }
+   }
+    test("decode using t2 2") {
+      new TestTrees {
+      assert(
+         decode(t2, List(1,1,0,1,1,1))    
+          === "ddbdd".toList
+          
+      )
+    }
+   }
+           
 
   test("decode and encode a very short text should be identity") {
     new TestTrees {

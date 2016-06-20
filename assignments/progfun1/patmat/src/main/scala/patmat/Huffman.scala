@@ -257,18 +257,36 @@ object Huffman {
    * This function decodes the bit sequence `bits` using the code tree `tree` and returns
    * the resulting list of characters.
    */
-    def decode(tree: CodeTree, bits: List[Bit]): List[Char] = tree match {
-    //case List() => List()
+    def decode(tree: CodeTree, bits: List[Bit]): List[Char] =  {
+      decodeOneChar(tree, tree, bits)
+    }
+  
+  def decodeOneChar(origtree: CodeTree, tree: CodeTree, bits: List[Bit]): List[Char] = tree match {
+    //case List() => List() // a code tree is not a List type, so this is not reachable. not necessary. 
     // reached a leaf. take that character and start again from the top of the list with remaining bits
-    case Leaf(char, weight) => char::decode(tree, bits.tail)  
+    case Leaf(char, weight) => bits match {
+      case List() => 
+        println(char)
+        char::Nil
+  
+      case x => 
+        println("case List x", char, bits)
+        char::decodeOneChar(origtree, origtree, bits) 
+    }
     
     // reached a fork. take the left or right tree based on current bit
     // 0 goes left, 1 goes right
     case Fork(left, right, chars, weight) => bits match {
-      case 0::xs => decode(left, xs)
-      case 1::xs => decode(right,xs)
+      // case List() => List()
+      case 0::xs => 
+        println("case 0", xs)
+        decodeOneChar(origtree, left, xs)
+      case 1::xs => 
+        println("case 1", xs)
+        decodeOneChar(origtree, right,xs)
     }
-    
+  }
+  
     
 //    case 0::xs => tree match {
 //      case Leaf(char, weight) => char::decode(tree, xs) // reached the lowest rung. restart from the top of tree
@@ -280,8 +298,8 @@ object Huffman {
 //    }
     
     
-    List('1')
-  }
+ //   List('1')  <-- I CANNOT BEWLIEVE THIS!! i left this here and was debugging why i was getting this the whole time!!!
+
   
   /**
    * A Huffman coding tree for the French language.
