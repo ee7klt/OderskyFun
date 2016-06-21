@@ -173,6 +173,16 @@ test("sortCodeTreeList for list of forks") {
     }
    } 
    
+   test("encode using t1") {
+      new TestTrees {
+      assert(
+         encode(t1)(List('a'))    
+          === List(0)
+          
+      )
+    }
+   }
+   
     test("decode using t1 2") {
       new TestTrees {
       assert(

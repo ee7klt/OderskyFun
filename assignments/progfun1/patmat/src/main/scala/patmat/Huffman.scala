@@ -261,16 +261,21 @@ object Huffman {
       decodeOneChar(tree, tree, bits)
     }
   
+  
+  /**
+   * decodeOneChar
+   * this helper to decode is to preserve the original tree for the recursive call from leaf level
+   */
   def decodeOneChar(origtree: CodeTree, tree: CodeTree, bits: List[Bit]): List[Char] = tree match {
     //case List() => List() // a code tree is not a List type, so this is not reachable. not necessary. 
     // reached a leaf. take that character and start again from the top of the list with remaining bits
     case Leaf(char, weight) => bits match {
       case List() => 
-        println(char)
+       // println(char)
         char::Nil
   
       case x => 
-        println("case List x", char, bits)
+      //  println("case List x", char, bits)
         char::decodeOneChar(origtree, origtree, bits) 
     }
     
@@ -279,10 +284,10 @@ object Huffman {
     case Fork(left, right, chars, weight) => bits match {
       // case List() => List()
       case 0::xs => 
-        println("case 0", xs)
+      //  println("case 0", xs)
         decodeOneChar(origtree, left, xs)
       case 1::xs => 
-        println("case 1", xs)
+    //    println("case 1", xs)
         decodeOneChar(origtree, right,xs)
     }
   }
@@ -317,8 +322,8 @@ object Huffman {
   /**
    * Write a function that returns the decoded secret
    */
-    def decodedSecret: List[Char] = ???
-  
+    def decodedSecret: List[Char] = decode(frenchCode, secret)
+  println(decodedSecret.toString)
 
   // Part 4a: Encoding using Huffman tree
 
@@ -326,10 +331,45 @@ object Huffman {
    * This function encodes `text` using the code tree `tree`
    * into a sequence of bits.
    */
-    def encode(tree: CodeTree)(text: List[Char]): List[Bit] = ???
+    def encode(tree: CodeTree)(text: List[Char]): List[Bit] = text match {
+    case List() => List() // reached the end of the char list, nothing to match anymore
+    
+    }
+    
+    // encode a single character
+    // continue to prune the tree until we reach the Leaf level
+    // using encodeSearch
+    def encodeOne(tree: CodeTree)(c: Char): List[Bit] = tree match {
+      case Leaf(char, weight) => List()
+      case Fork(left, right, chars, weight) => List()
+      
+    }
+    
+    // does tree contain char c?
+    def encodeSearch(tree: CodeTree)(c: Char): Boolean = tree match {
+       case Leaf(char,weight) => c == char
+       case Fork(left,right,chars,weight) => encodeMatch(chars, c)
+       
+    }
+    
+    
+    // is c in the list chars?
+    def encodeMatch(chars: List[Char], c: Char): Boolean = chars match {
+      case List() => false  // reached the end of the list but still not found c
+      case x::xs => if (x == c) true else encodeMatch(xs, c)
+    }
+
+    
   
   // Part 4b: Encoding using code table
-
+    
+     def test(tree: CodeTree)(c: Char): Int = tree match {
+    case Leaf(_,_) => 1
+    case Fork(_,_,_,_) => 1
+  }
+    
+  
+  
   type CodeTable = List[(Char, List[Bit])]
 
   /**

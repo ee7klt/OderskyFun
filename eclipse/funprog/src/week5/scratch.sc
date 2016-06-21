@@ -50,4 +50,5 @@ def removeAt[T](xs: List[T], n: Int): List[T] = xs match {
  removeAt(List('a','b','c'),1)                    //> res4: List[Char] = List(a, c)
 List(1,2,3) indexOf 2                             //> res5: Int = 1
 
+
 }
