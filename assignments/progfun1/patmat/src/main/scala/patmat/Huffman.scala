@@ -333,15 +333,19 @@ object Huffman {
    */
     def encode(tree: CodeTree)(text: List[Char]): List[Bit] = text match {
     case List() => List() // reached the end of the char list, nothing to match anymore
-    
+    case x::xs => encodeOne(tree)(x):::encode(tree)(xs)   // both encodeOne and encode return Lists. need to concatenate with :::
     }
     
     // encode a single character
     // continue to prune the tree until we reach the Leaf level
     // using encodeSearch
     def encodeOne(tree: CodeTree)(c: Char): List[Bit] = tree match {
-      case Leaf(char, weight) => List()
-      case Fork(left, right, chars, weight) => List()
+      case Leaf(char, weight) => List()   // can't go right or left anymore. 
+      case Fork(left, right, chars, weight) => {
+        if (encodeSearch(left)(c)) 0::encodeOne(left)(c)     // go left = 0
+        else if (encodeSearch(right)(c)) 1::encodeOne(right)(c)  // go right = 1
+        else throw new Error("character is not in tree")   
+      }
       
     }
     
