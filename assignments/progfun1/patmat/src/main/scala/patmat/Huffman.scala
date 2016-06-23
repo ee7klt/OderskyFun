@@ -380,7 +380,10 @@ object Huffman {
    * This function returns the bit sequence that represents the character `char` in
    * the code table `table`.
    */
-    def codeBits(table: CodeTable)(char: Char): List[Bit] = ???
+    def codeBits(table: CodeTable)(char: Char): List[Bit] = table match {
+    case List() => throw new Error("character is not in table")
+    case x::xs => if (x._1 == char) x._2 else codeBits(xs)(char)
+  }
   
   /**
    * Given a code tree, create a code table which contains, for every character in the
@@ -390,7 +393,10 @@ object Huffman {
    * a valid code tree that can be represented as a code table. Using the code tables of the
    * sub-trees, think of how to build the code table for the entire tree.
    */
-    def convert(tree: CodeTree): CodeTable = ???
+    def convert(tree: CodeTree): CodeTable = tree match {
+      case Leaf(char,weight) =>  
+      case Fork(left,right,chars,weight) =>  
+    }
   
   /**
    * This function takes two code tables and merges them into one. Depending on how you
