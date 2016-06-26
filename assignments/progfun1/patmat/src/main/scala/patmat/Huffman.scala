@@ -394,9 +394,15 @@ object Huffman {
    * sub-trees, think of how to build the code table for the entire tree.
    */
     def convert(tree: CodeTree): CodeTable = tree match {
-      case Leaf(char,weight) =>  
-      case Fork(left,right,chars,weight) =>  
+      case Leaf(char,weight) => List((char,List(0)))  // if tree is only a single leaf, character is one bit long, and there is only one entry in the code tree
+      case Fork(left,right,chars,weight) => chars match {
+        case List() => List()       // reached the end of the chars list. append Nil
+        case x::xs => (x, encodeOne(tree)(x))::convert(tree)    // append the CodeTable pair for char x    
+      }
     }
+    
+    
+  
   
   /**
    * This function takes two code tables and merges them into one. Depending on how you
