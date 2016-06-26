@@ -395,13 +395,14 @@ object Huffman {
    */
     def convert(tree: CodeTree): CodeTable = tree match {
       case Leaf(char,weight) => List((char,List(0)))  // if tree is only a single leaf, character is one bit long, and there is only one entry in the code tree
-      case Fork(left,right,chars,weight) => chars match {
-        case List() => List()       // reached the end of the chars list. append Nil
-        case x::xs => (x, encodeOne(tree)(x))::convert(tree)    // append the CodeTable pair for char x    
+      case Fork(left,right,chars,weight) => convertHelper(tree)(chars)  
       }
+    
+    
+    def convertHelper(tree: CodeTree)(chars: List[Char]): CodeTable = chars match {
+      case List() => List()
+      case x::xs =>  (x, encodeOne(tree)(x))::convertHelper(tree)(xs)
     }
-    
-    
   
   
   /**

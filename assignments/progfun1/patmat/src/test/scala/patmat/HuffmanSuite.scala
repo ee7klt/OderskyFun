@@ -206,5 +206,45 @@ class HuffmanSuite extends FunSuite {
       assert(decode(t1, encode(t1)("ab".toList)) === "ab".toList)
     }
   }
-
+  
+ 
+  
+  
+  /**
+   * CodeTree tests
+   */
+   test("convert t1") {
+    new TestTrees {
+      assert(
+        convert(t1)
+          === List(('a',List(0)),('b',List(1)))
+              )
+    }
+  }
+   
+   test("convert t2") {
+    new TestTrees {
+      assert(
+        convert(t2)
+          === List(('a',List(0,0)),('b',List(0,1)),('d',List(1)))
+              )
+    }
+  }
+  
+test("codeBits a single character on tree should return encoding for that character by looking up the CodeTable") {
+    new TestTrees {
+      assert(
+        codeBits(convert(t2))('a')
+          === List(0,0)
+              )
+    }
+  }
+     test("encode t2 using CodeTree") {
+    new TestTrees {
+      assert(
+        quickEncode(t2)(List('a', 'd', 'b'))
+          === List(0, 0, 1, 0, 1))
+    }
+  }
+   
 }
