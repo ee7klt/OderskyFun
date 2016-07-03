@@ -15,7 +15,12 @@ object listfun {
   
   def pack[T](xs: List[T]): List[List[T]] = xs match {
   	case List() => List()
-  	case x::xs1 => (xs filter (y => y == x)) :: pack(xs filterNot (y => y == x))
+  	case x::xs1 => {
+  		val (a,b) = (xs partition (y => y == x))
+  		a :: pack(b)
+  	}
+  	
+  	//(xs filter (y => y == x)) :: pack(xs filterNot (y => y == x))
   }                                               //> pack: [T](xs: List[T])List[List[T]]
   
   val lis = List("a","a","b","a","b")             //> lis  : List[String] = List(a, a, b, a, b)
