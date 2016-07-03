@@ -115,7 +115,7 @@ msort(List(2,1,4,1,1,2))                          //> res11: List[Int] = List(1,
 
 
 // parameterized mergesort
-def msortp[T](xs: List[T])(ord: Ordering[T]): List[T] = {
+def msortp[T](xs: List[T])(implicit ord: Ordering[T]): List[T] = {
 	val n = xs.length/2
 	if (n == 0) xs
 	else {
@@ -131,16 +131,16 @@ def msortp[T](xs: List[T])(ord: Ordering[T]): List[T] = {
 		
 	}
 		
-		mergep(msortp(fst)(ord), msortp(snd)(ord))
+		mergep(msortp(fst), msortp(snd))
 	}
-}                                                 //> msortp: [T](xs: List[T])(ord: Ordering[T])List[T]
+}                                                 //> msortp: [T](xs: List[T])(implicit ord: Ordering[T])List[T]
 
 
-msortp(List(3,5,2,6))(Ordering.Int)               //> res12: List[Int] = List(2, 3, 5, 6)
+msortp(List(3,5,2,6))                             //> res12: List[Int] = List(2, 3, 5, 6)
 val fruits = List("apple","pineapple","orange","banana")
                                                   //> fruits  : List[String] = List(apple, pineapple, orange, banana)
 
-msortp(fruits)(Ordering.String)                   //> res13: List[String] = List(apple, banana, orange, pineapple)
+msortp(fruits)                                    //> res13: List[String] = List(apple, banana, orange, pineapple)
                                                   
 
  // these are fine, but need to take care of when either or both hits the end of the list
