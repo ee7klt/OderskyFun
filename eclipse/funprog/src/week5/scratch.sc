@@ -115,7 +115,7 @@ msort(List(2,1,4,1,1,2))                          //> res11: List[Int] = List(1,
 
 
 // parameterized mergesort
-def msortp[T](xs: List[T])(lt: (T,T) => Boolean): List[T] = {
+def msortp[T](xs: List[T])(ord: Ordering[T]): List[T] = {
 	val n = xs.length/2
 	if (n == 0) xs
 	else {
@@ -125,23 +125,23 @@ def msortp[T](xs: List[T])(lt: (T,T) => Boolean): List[T] = {
 			case (Nil, ys) => ys
 			case (xs ,Nil) => xs
 			case (x::xs1, y::ys1) => {
-			if (lt(x, y)) x::mergep(xs1,ys)
+			if (ord.lt(x,y)) x::mergep(xs1,ys)
 			else y::mergep(xs,ys1)
 		}
 		
 	}
 		
-		mergep(msortp(fst)(lt), msortp(snd)(lt))
+		mergep(msortp(fst)(ord), msortp(snd)(ord))
 	}
-}                                                 //> msortp: [T](xs: List[T])(lt: (T, T) => Boolean)List[T]
+}                                                 //> msortp: [T](xs: List[T])(ord: Ordering[T])List[T]
 
 
-msortp(List(3,5,2,6))((x: Int, y: Int) => x < y)  //> res12: List[Int] = List(2, 3, 5, 6)
+msortp(List(3,5,2,6))(Ordering.Int)               //> res12: List[Int] = List(2, 3, 5, 6)
 val fruits = List("apple","pineapple","orange","banana")
                                                   //> fruits  : List[String] = List(apple, pineapple, orange, banana)
 
-msortp(fruits)((x: String, y: String) => x.compareTo(y) < 0)
-                                                  //> res13: List[String] = List(apple, banana, orange, pineapple)
+msortp(fruits)(Ordering.String)                   //> res13: List[String] = List(apple, banana, orange, pineapple)
+                                                  
 
  // these are fine, but need to take care of when either or both hits the end of the list
  // else if (xs.head == ys.head) xs.head::ys.head::merge(xs.tail,ys.tail)
