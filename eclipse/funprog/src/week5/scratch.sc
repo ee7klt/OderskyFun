@@ -69,14 +69,15 @@ def msort(xs: List[Int]): List[Int] = {
 // possibly. do we need to compare the case where they heads are the same?
 // that should've been automatically taken care of since we're building from the bottomup no?
 
-def merge(xs: List[Int], ys: List[Int]): List[Int] =  xs match {
+// non-symmetric merge
+def mergeNS(xs: List[Int], ys: List[Int]): List[Int] =  xs match {
 	case List() => ys
 	case p::ps => ys match {
 	  case List() => xs
 	  case q::qs => {
-	     if (p < q) p::merge(ps,ys)
-	     else if (p > q) q::merge(xs,qs)
-	     else p::q::merge(ps,qs)
+	     if (p < q) p::mergeNS(ps,ys)
+	     else if (p > q) q::mergeNS(xs,qs)
+	     else p::q::mergeNS(ps,qs)
 	   
 	  }
 	  
@@ -87,14 +88,27 @@ def merge(xs: List[Int], ys: List[Int]): List[Int] =  xs match {
 	 // }
 	}
 	
-}                                                 //> merge: (xs: List[Int], ys: List[Int])List[Int]
+}                                                 //> mergeNS: (xs: List[Int], ys: List[Int])List[Int]
 
+
+//symmetric merge
+
+def merge(xs: List[Int], ys: List[Int]): List[Int] =
+	(xs,ys) match {
+		case (Nil, ys) => ys
+		case (xs ,Nil) => xs
+		case (x::xs1, y::ys1) => {
+			if (x < y) x::merge(xs1,ys)
+			else y::merge(xs,ys1)
+		}
+		
+	}                                         //> merge: (xs: List[Int], ys: List[Int])List[Int]
 
 merge(List(),List(1,2,3))                         //> res6: List[Int] = List(1, 2, 3)
 merge(List(1,2,3),List())                         //> res7: List[Int] = List(1, 2, 3)
 merge(List(2,4,90), List(1,3,5,6,7))              //> res8: List[Int] = List(1, 2, 3, 4, 5, 6, 7, 90)
 msort(List(1,3,5,2,4,6))                          //> res9: List[Int] = List(1, 2, 3, 4, 5, 6)
-msort(List(4,1,3,2))                              //> res10: List[Int] = List(1, 2, 3, 4)
+msort(List(4,1,-3,2))                             //> res10: List[Int] = List(-3, 1, 2, 4)
 msort(List(2,1,4,1,1,2))                          //> res11: List[Int] = List(1, 1, 1, 2, 2, 4)
 
 
