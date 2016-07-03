@@ -394,6 +394,9 @@ object Huffman {
    * sub-trees, think of how to build the code table for the entire tree.
    */
     def convert(tree: CodeTree): CodeTable = tree match {
+      case Leaf(char, weight) => List((char,List()))
+      
+      
       case Leaf(char,weight) => List((char,List(0)))  // if tree is only a single leaf, character is one bit long, and there is only one entry in the code tree
       case Fork(left,right,chars,weight) => convertHelper(tree)(chars)  
       }
@@ -409,8 +412,24 @@ object Huffman {
    * This function takes two code tables and merges them into one. Depending on how you
    * use it in the `convert` method above, this merge method might also do some transformations
    * on the two parameter code tables.
+   * 
+   * my addendum: i will assume a is left and b is right
+   * then we will append 0 to all the x._2 entries of a and 1 to all the x._2 entries of b
+   * then concatenate them in to a single list
    */
-    def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = ???
+    def mergeCodeTables(a: CodeTable, b: CodeTable): CodeTable = {
+      mergeCodeTablesHelper(a,0):::mergeCodeTablesHelper(b,1)
+    }
+    
+    /**
+     * implement a map method over all entries of a CodeTable,
+     * appending either a 0 or a 1
+     */
+    def mergeCodeTablesHelper(a: CodeTable, b: Bit): CodeTable = a match {
+      case List() => List()
+      case x::xs => (x._1,b::x._2)::mergeCodeTablesHelper(xs, b)
+    }
+    
   
   /**
    * This function encodes `text` according to the code tree `tree`.

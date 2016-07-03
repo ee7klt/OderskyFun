@@ -22,3 +22,5 @@ project/plugins/project/
 /.cache-main
 /.cache-tests
 /.project
+
+.cache-main

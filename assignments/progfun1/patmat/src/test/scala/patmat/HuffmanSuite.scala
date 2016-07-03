@@ -246,5 +246,8 @@ test("codeBits a single character on tree should return encoding for that charac
           === List(0, 0, 1, 0, 1))
     }
   }
+     
+     
+   mergeCodeTables
    
 }
