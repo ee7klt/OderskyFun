@@ -167,4 +167,16 @@ def squareList(xs: List[Double]): List[Double] = xs match {
 
 squareList(List(1,2,3))                           //> res15: List[Double] = List(1.0, 4.0, 9.0)
 
+
+// filtering
+// return all positive elements of the list
+def posElems(xs: List[Int]): List[Int] = xs match {
+case Nil => Nil
+case x::xs1 => {
+	if (x > 0) x::posElems(xs1)
+	else posElems(xs1)
+}
+}                                                 //> posElems: (xs: List[Int])List[Int]
+
+posElems(List(-3,4,5,-1))                         //> res16: List[Int] = List(4, 5)
 }
