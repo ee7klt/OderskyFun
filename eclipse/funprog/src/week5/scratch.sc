@@ -52,17 +52,6 @@ List(1,2,3) indexOf 2                             //> res5: Int = 1
 
 
 
-def msort(xs: List[Int]): List[Int] = {
-
-	val n = xs.length/2
-	if (n == 0) xs
-	else {
-		val (fst, snd) = xs splitAt n
-		merge(msort(fst), msort(snd))
-	}
-	
-
-}                                                 //> msort: (xs: List[Int])List[Int]
 
 // xs and ys are both already sorted
 // so to put them in order, we just need to compare the first element of each list
@@ -91,6 +80,19 @@ def mergeNS(xs: List[Int], ys: List[Int]): List[Int] =  xs match {
 }                                                 //> mergeNS: (xs: List[Int], ys: List[Int])List[Int]
 
 
+
+
+def msort(xs: List[Int]): List[Int] = {
+
+	val n = xs.length/2
+	if (n == 0) xs
+	else {
+		val (fst, snd) = xs splitAt n
+		merge(msort(fst), msort(snd))
+	}
+	
+
+}                                                 //> msort: (xs: List[Int])List[Int]
 //symmetric merge
 
 def merge(xs: List[Int], ys: List[Int]): List[Int] =
@@ -112,6 +114,34 @@ msort(List(4,1,-3,2))                             //> res10: List[Int] = List(-3
 msort(List(2,1,4,1,1,2))                          //> res11: List[Int] = List(1, 1, 1, 2, 2, 4)
 
 
+// parameterized mergesort
+def msortp[T](xs: List[T])(lt: (T,T) => Boolean): List[T] = {
+	val n = xs.length/2
+	if (n == 0) xs
+	else {
+		val (fst, snd) = xs splitAt n
+		def mergep(xs: List[T], ys: List[T]): List[T] =
+			(xs,ys) match {
+			case (Nil, ys) => ys
+			case (xs ,Nil) => xs
+			case (x::xs1, y::ys1) => {
+			if (lt(x, y)) x::mergep(xs1,ys)
+			else y::mergep(xs,ys1)
+		}
+		
+	}
+		
+		mergep(msortp(fst)(lt), msortp(snd)(lt))
+	}
+}                                                 //> msortp: [T](xs: List[T])(lt: (T, T) => Boolean)List[T]
+
+
+msortp(List(3,5,2,6))((x: Int, y: Int) => x < y)  //> res12: List[Int] = List(2, 3, 5, 6)
+val fruits = List("apple","pineapple","orange","banana")
+                                                  //> fruits  : List[String] = List(apple, pineapple, orange, banana)
+
+msortp(fruits)((x: String, y: String) => x.compareTo(y) < 0)
+                                                  //> res13: List[String] = List(apple, banana, orange, pineapple)
 
  // these are fine, but need to take care of when either or both hits the end of the list
  // else if (xs.head == ys.head) xs.head::ys.head::merge(xs.tail,ys.tail)
