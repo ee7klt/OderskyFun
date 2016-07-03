@@ -152,4 +152,19 @@ msortp(fruits)                                    //> res13: List[String] = List
 val (a,b) = List(1,2,3,4) splitAt 1               //> a  : List[Int] = List(1)
                                                   //| b  : List[Int] = List(2, 3, 4)
 
+
+def scaleList(xs: List[Double], factor: Double): List[Double] = xs match {
+	case Nil => Nil
+	case x::xs1 => (x*factor)::scaleList(xs1,factor)
+}                                                 //> scaleList: (xs: List[Double], factor: Double)List[Double]
+
+scaleList(List(1,2,3), 0.2)                       //> res14: List[Double] = List(0.2, 0.4, 0.6000000000000001)
+
+def squareList(xs: List[Double]): List[Double] = xs match {
+	case List() => List()
+	case x::xs1 => x*x::squareList(xs1)
+}                                                 //> squareList: (xs: List[Double])List[Double]
+
+squareList(List(1,2,3))                           //> res15: List[Double] = List(1.0, 4.0, 9.0)
+
 }
