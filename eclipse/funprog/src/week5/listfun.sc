@@ -14,6 +14,7 @@ object listfun {
   
   // pack takes a List
   // packs consecutive duplicates of the list elements into sublists
+  //  List("a","a","b","b","b","a") -> List(List("a","a"),List("b","b","b"),List("a"))
   def pack[T](xs: List[T]): List[List[T]] = xs match {
   	case List() => List()
   	case x::xs1 => {
@@ -25,19 +26,14 @@ object listfun {
   }                                               //> pack: [T](xs: List[T])List[List[T]]
   
   val lis = List("a","a","b","a","b")             //> lis  : List[String] = List(a, a, b, a, b)
-  pack(lis)                                       //> res6: List[List[String]] = List(List(a, a), List(b), List(a), List(b))
+  pack(lis).head.head                             //> res6: String = a
   
   
   //encode takes a list
   // returns run-length encoding of the list
   // List("a","a","b","b","b","a") -> List(("a",2),("b",3),("a",1))
-  def encode[T](xs: List[T]): List[(T, Int)] = xs match {
-  	case List() => List()
-  	case x::xs1 => {
-  		val (fst,scd) = xs span (y => y == x)
-  		(x, fst.length) :: encode(scd)
-  	}
-  }                                               //> encode: [T](xs: List[T])List[(T, Int)]
+  def encode[T](xs: List[T]): List[(T, Int)] = pack(xs).map(x => (x.head, x.length))
+                                                  //> encode: [T](xs: List[T])List[(T, Int)]
   
   encode(lis)                                     //> res7: List[(String, Int)] = List((a,2), (b,1), (a,1), (b,1))
 }
