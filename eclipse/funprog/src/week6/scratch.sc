@@ -26,23 +26,35 @@ object scratch {
   s flatMap(c => List('.', c))                    //> res7: String = .H.e.l.l.o. .W.o.r.l.d
   xs.sum                                          //> res8: Int = 50
   xs.max                                          //> res9: Int = 44
-  
+  //(1,2).product
   
   (1 to 2) flatMap (x => List(x))                 //> res10: scala.collection.immutable.IndexedSeq[Int] = Vector(1, 2)
    (1 to 2) flatMap (x => (3 to 4) map (y => List(x,y)))
                                                   //> res11: scala.collection.immutable.IndexedSeq[List[Int]] = Vector(List(1, 3),
                                                   //|  List(1, 4), List(2, 3), List(2, 4))
+   List(1,2).product                              //> res12: Int = 2
+  
    
-   
-  ( Vector(1,2) zip Vector(2,3) )                 //> res12: scala.collection.immutable.Vector[(Int, Int)] = Vector((1,2), (2,3))
+  ( Vector(1,2) zip Vector(2,3) )                 //> res13: scala.collection.immutable.Vector[(Int, Int)] = Vector((1,2), (2,3))
 
-  Vector(1,2).product                             //> res13: Int = 2
+  Vector(1,2).product                             //> res14: Int = 2
    
-   def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double = ???
-                                                  //> scalarProduct: (xs: Vector[Double], ys: Vector[Double])Double
-    // ((xs zip ys) map (x => x.product)).sum
+   def scalarProduct(xs: Vector[Double], ys: Vector[Double]): Double =
+     ((xs zip ys) map (x => x._1 * x._2)).sum     //> scalarProduct: (xs: Vector[Double], ys: Vector[Double])Double
      
-  // scalarProduct(Vector(1,2,3), Vector(2,3,4))
+   scalarProduct(Vector(1,2,3), Vector(2,3,4))    //> res15: Double = 20.0
    
-   
+     def scalarProductPM(xs: Vector[Double], ys: Vector[Double]): Double =
+     ((xs zip ys) map{case (a,b) => a*b}).sum     //> scalarProductPM: (xs: Vector[Double], ys: Vector[Double])Double
+    scalarProductPM(Vector(1,2,3), Vector(2,3,4)) //> res16: Double = 20.0
+    
+    
+    
+    def isPrime(n: Int): Boolean =
+    	((1 to n) filter (x => n%x == 0)).length == 2
+                                                  //> isPrime: (n: Int)Boolean
+    	//!((2 to n-1) exists (x => n%x == 0))
+    
+    isPrime(7)                                    //> res17: Boolean = true
+     
 }
