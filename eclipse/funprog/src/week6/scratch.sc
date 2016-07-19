@@ -51,10 +51,13 @@ object scratch {
     
     
     def isPrime(n: Int): Boolean =
-    	((1 to n) filter (x => n%x == 0)).length == 2
-                                                  //> isPrime: (n: Int)Boolean
+    	(2 until n) forall (d => d%n !=0)         //> isPrime: (n: Int)Boolean
+    	//((1 to n) filter (x => n%x == 0)).length == 2
     	//!((2 to n-1) exists (x => n%x == 0))
     
-    isPrime(7)                                    //> res17: Boolean = true
+    isPrime(1)                                    //> res17: Boolean = true
+     
+     
+     
      
 }
