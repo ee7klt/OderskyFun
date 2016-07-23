@@ -25,7 +25,7 @@ object nqueens {
   
   
   
-  def isSafe(n: Int, q: List[Int]): Boolean = {
+  def isSafe(col: Int, q: List[Int]): Boolean = {
   	val row = q.length // the very next row to place our queen
   	// transform q in to a List of pairs of form (row, column)
   	// right now q is a List of columns)
@@ -35,16 +35,23 @@ object nqueens {
   
   	val queensWithRow = (row-1 to 0 by -1) zip q
   	
+  	// check to see if (col,row) is in check
+  	// need to check previous col
+  	// and diagonals
+  	// use forall and pattern match
+  	// for all the current queens on the board, do they all not threaten
+  	// a new queen placed at (col, row)?
   	
-  	(for {
-  		x <- q
-  		if n != x
-  	} yield true) forall (y => true)
+  	queensWithRow forall {
+  		case (r,c) =>
+  			col != c && (row-r != math.abs(col-c))
+  	}
+  	
   
-  }                                               //> isSafe: (n: Int, q: List[Int])Boolean
+  }                                               //> isSafe: (col: Int, q: List[Int])Boolean
   
-  isSafe(0, List(3,1))                            //> res0: Boolean = true
-  isSafe(3, List(0,3,1))                          //> res1: Boolean = true
+  isSafe(2, List(3,1))                            //> res0: Boolean = false
+  isSafe(3, List(0,3,1))                          //> res1: Boolean = false
   9 to 0 by -1                                    //> res2: scala.collection.immutable.Range = Range(9, 8, 7, 6, 5, 4, 3, 2, 1, 0
                                                   //| )
   
