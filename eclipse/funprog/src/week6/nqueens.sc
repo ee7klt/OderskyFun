@@ -29,7 +29,11 @@ object nqueens {
   	val row = q.length // the very next row to place our queen
   	// transform q in to a List of pairs of form (row, column)
   	// right now q is a List of columns)
-  	val coords = q map (x => (row, x))
+  	// the earlier elements of q are the latest queens to be put on the board
+  	// so we're counting the rows from bottom up
+  	// Martin: zip a range with the queens
+  
+  	val queensWithRow = (row-1 to 0 by -1) zip q
   	
   	
   	(for {
@@ -41,6 +45,7 @@ object nqueens {
   
   isSafe(0, List(3,1))                            //> res0: Boolean = true
   isSafe(3, List(0,3,1))                          //> res1: Boolean = true
-  
+  9 to 0 by -1                                    //> res2: scala.collection.immutable.Range = Range(9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+                                                  //| )
   
 }
