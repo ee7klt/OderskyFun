@@ -50,9 +50,45 @@ object nqueens {
   
   }                                               //> isSafe: (col: Int, q: List[Int])Boolean
   
-  isSafe(2, List(3,1))                            //> res0: Boolean = false
-  isSafe(3, List(0,3,1))                          //> res1: Boolean = false
-  9 to 0 by -1                                    //> res2: scala.collection.immutable.Range = Range(9, 8, 7, 6, 5, 4, 3, 2, 1, 0
+  def show(queens: List[Int]) = {
+  	val lines =
+  		for (col <- queens.reverse)
+  		yield Vector.fill(queens.length)("* ").updated(col, "X ").mkString
+  	"\n" + (lines mkString "\n")
+  }                                               //> show: (queens: List[Int])String
+  
+   (queens(8) take 3 map show)  mkString "\n"     //> res0: String = "
+                                                  //| * * * * * X * * 
+                                                  //| * * * X * * * * 
+                                                  //| * X * * * * * * 
+                                                  //| * * * * * * * X 
+                                                  //| * * * * X * * * 
+                                                  //| * * * * * * X * 
+                                                  //| X * * * * * * * 
+                                                  //| * * X * * * * * 
+                                                  //| 
+                                                  //| * * * * X * * * 
+                                                  //| * * * * * * X * 
+                                                  //| * X * * * * * * 
+                                                  //| * * * X * * * * 
+                                                  //| * * * * * * * X 
+                                                  //| X * * * * * * * 
+                                                  //| * * X * * * * * 
+                                                  //| * * * * * X * * 
+                                                  //| 
+                                                  //| * * * * * X * * 
+                                                  //| * * X * * * * * 
+                                                  //| * * * * * * X * 
+                                                  //| * * * X * * * * 
+                                                  //| X * * * * * * * 
+                                                  //| * * * * * * * X 
+                                                  //| * X * * * * * * 
+                                                  //| * * * * X * * * "
+  isSafe(2, List(3,1))                            //> res1: Boolean = false
+  isSafe(3, List(0,3,1))                          //> res2: Boolean = false
+  9 to 0 by -1                                    //> res3: scala.collection.immutable.Range = Range(9, 8, 7, 6, 5, 4, 3, 2, 1, 0
                                                   //| )
+  queens(4)                                       //> res4: Set[List[Int]] = Set(List(1, 3, 0, 2), List(2, 0, 3, 1))
+  queens(7).size                                  //> res5: Int = 40
   
 }
