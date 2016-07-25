@@ -33,4 +33,15 @@ object maps {
    
    fruit groupBy (_.head)                         //> res8: scala.collection.immutable.Map[Char,List[String]] = Map(p -> List(pear
                                                   //| , pineapple), a -> List(apple), o -> List(orange))
+   
+   val a =List((1,2),(2,3))                       //> a  : List[(Int, Int)] = List((1,2), (2,3))
+   val b = (2,2)                                  //> b  : (Int, Int) = (2,2)
+   
+
+  		( for {
+  			(exp, coeff) <- a
+  			if (b._1) == exp
+  		} yield (exp,b._2 + coeff) ).head //> res9: (Int, Int) = (2,5)
+  
+   
 }
