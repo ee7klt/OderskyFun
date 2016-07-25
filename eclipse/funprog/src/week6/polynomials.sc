@@ -2,17 +2,13 @@ package week6
 
 object polynomials {
   class Poly(terms0: Map[Int, Double]) {
-  	val terms = terms0 withDefaultValue 0.0
+    val terms = terms0 withDefaultValue 0.0
     def +(other: Poly) = new Poly(terms ++ (other.terms map adjust))
     def adjust(term: (Int, Double)): (Int, Double) = {
       val (exp, coeff) = term
-      terms get exp match {
-      	case Some(c) => exp -> (c+coeff)   //c = coefficient of matching term in terms.
-      	case None => term								// if there's no match, then we'll just return the superimposition as per usual
-      }
+      exp -> (terms(exp) + coeff)
     }
-    
-    
+
     override def toString = {
       val lines =
         for {
