@@ -44,10 +44,12 @@ object maps {
                                                   //> cap1  : scala.collection.immutable.Map[String,String] = Map(US -> Washington
                                                   //| , Switzerland -> Bern)
   cap1("Andorra")                                 //> res10: String = <unknown>
-  
+
   val m = Map("a" -> 1, "b" -> 2)                 //> m  : scala.collection.immutable.Map[String,Int] = Map(a -> 1, b -> 2)
 
-val incM = m map {case (key, value) => (key, value + 1)}
+  val incM = m map { case (key, value) => (key, value + 1) }
                                                   //> incM  : scala.collection.immutable.Map[String,Int] = Map(a -> 2, b -> 3)
   // capitalOfCountry("Andorra")
+
+  val test = Map('a' -> 1, 'b' -> 2, 'a' -> 3)    //> test  : scala.collection.immutable.Map[Char,Int] = Map(a -> 3, b -> 2)
 }
