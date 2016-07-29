@@ -8,7 +8,21 @@ object x {
                                                   //> in  : scala.io.BufferedSource = non-empty iterator
   
   /* create a list and filter all words where *all* their characters are not letters (like dashes) */
-  val words = in.getLines                         //> words  : Iterator[String] = non-empty iterator
+  val words = in.getLines.toList filter (word => word forall (char => char.isLetter))
+                                                  //> words  : List[String] = List(Aarhus, Aaron, Ababa, aback, abaft, abandon, ab
+                                                  //| andoned, abandoning, abandonment, abandons, abase, abased, abasement, abasem
+                                                  //| ents, abases, abash, abashed, abashes, abashing, abasing, abate, abated, aba
+                                                  //| tement, abatements, abater, abates, abating, Abba, abbe, abbey, abbeys, abbo
+                                                  //| t, abbots, Abbott, abbreviate, abbreviated, abbreviates, abbreviating, abbre
+                                                  //| viation, abbreviations, Abby, abdomen, abdomens, abdominal, abduct, abducted
+                                                  //| , abduction, abductions, abductor, abductors, abducts, Abe, abed, Abel, Abel
+                                                  //| ian, Abelson, Aberdeen, Abernathy, aberrant, aberration, aberrations, abet, 
+                                                  //| abets, abetted, abetter, abetting, abeyance, abhor, abhorred, abhorrent, abh
+                                                  //| orrer, abhorring, abhors, abide, abided, abides, abiding, Abidjan, Abigail, 
+                                                  //| Abilene, abilities, ability, abject, abjection, abjections, abjectly, abject
+                                                  //| ness, abjure, abjured, abjures, abjuring, ablate, ablated, ablates, ablating
+                                                  //| , ablation, ablative, ab
+                                                  //| Output exceeds cutoff limit.
   
   /* define the map of numbers to letters */
   val mnem = Map( '2' -> "ABC", '3' -> "DEF", '4' -> "GHI", '5' -> "JKL", '6' -> "MNO", '7' -> "PQRS", '8' -> "TUV", '9' -> "WXYZ")
@@ -35,9 +49,38 @@ object x {
   wordCode("Java")                                //> res0: String = 5282
   
   /* group all words of our long list with the same number */
-  val wordsForNum: Map[String, Seq[String]] =  ???//> scala.NotImplementedError: an implementation is missing
+  /**
+  * A map from digit strings to the words that represent them
+  * e.g. "5282" -> List("Java", "Kata", "Lava", ... )
+  * Note: a missing number should map to the empty set e.g. "1111" -> List()
+  */
+  
+  val wordsForNum: Map[String, Seq[String]] = words groupBy wordCode
+                                                  //> wordsForNum  : Map[String,Seq[String]] = Map(63972278 -> List(newscast), 29
+                                                  //| 237638427 -> List(cybernetics), 782754448 -> List(starlight), 2559464 -> Li
+                                                  //| st(allying), 862532733 -> List(uncleared), 365692259 -> List(enjoyably), 86
+                                                  //| 8437 -> List(unties), 33767833 -> List(deportee), 742533 -> List(picked), 3
+                                                  //| 364646489 -> List(femininity), 3987267346279 -> List(extraordinary), 785539
+                                                  //| 7 -> List(pulleys), 67846493 -> List(optimize), 4723837 -> List(grafter), 3
+                                                  //| 86583 -> List(evolve), 78475464 -> List(Stirling), 746459 -> List(singly), 
+                                                  //| 847827 -> List(vistas), 546637737 -> List(lionesses), 28754283 -> List(curl
+                                                  //| icue), 84863372658 -> List(thunderbolt), 46767833 -> List(imported), 264374
+                                                  //| 64 -> List(angering, cohering), 8872267 -> List(turbans), 77665377 -> List(
+                                                  //| spoolers), 46636233 -> List(homemade), 7446768759 -> List(rigorously), 7464
+                                                  //| 4647 -> List(ringings), 633738 -> List(offset), 847825 -> List(visual), 772
+                                                  //| 832 -> List(Pravda), 47
+                                                  //| Output exceeds cutoff limit.
+  	
+  /* function that receives a number and finds the words that match it */
+  def encode(number: String): Set[List[String]] = ???
+                                                  //> encode: (number: String)Set[List[String]]
+  /* better print of the results */
+  def translate(number: String): Set[String] = ???//> translate: (number: String)Set[String]
+  /* test the translate and print results*/
+  translate("7225247386") foreach println         //> scala.NotImplementedError: an implementation is missing
                                                   //| 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)
-                                                  //| 	at week6.x$$anonfun$main$1.apply$mcV$sp(week6.x.scala:31)
+                                                  //| 	at week6.x$$anonfun$main$1.translate$1(week6.x.scala:42)
+                                                  //| 	at week6.x$$anonfun$main$1.apply$mcV$sp(week6.x.scala:44)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
                                                   //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
                                                   //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
@@ -46,11 +89,5 @@ object x {
                                                   //| ksheetSupport.scala:75)
                                                   //| 	at week6.x$.main(week6.x.scala:5)
                                                   //| 	at week6.x.main(week6.x.scala)
-  /* function that receives a number and finds the words that match it */
-  def encode(number: String): Set[List[String]] = ???
-  /* better print of the results */
-  def translate(number: String): Set[String] = ???
-  /* test the translate and print results*/
-  translate("7225247386") foreach println
 
 }
