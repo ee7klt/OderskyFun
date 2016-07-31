@@ -248,6 +248,5 @@ test("codeBits a single character on tree should return encoding for that charac
   }
      
      
-   mergeCodeTables
    
 }

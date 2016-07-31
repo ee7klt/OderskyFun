@@ -58,6 +58,10 @@ object scratch {
     isPrime(1)                                    //> res17: Boolean = true
      
      
+     (for (
+      (c,l) <- ("hello".toList groupBy ((element:Char) => element))
+      ) yield (c -> l.length)).toList             //> res18: List[(Char, Int)] = List((e,1), (h,1), (l,2), (o,1))
+     
      
      
 }

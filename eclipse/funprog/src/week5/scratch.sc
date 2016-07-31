@@ -6,35 +6,35 @@ def last[T](xs: List[T]): T = xs match {
  case List() => throw new Error("Last of empty list")
  case List(x) => x
  case y::ys => last(ys)
-}                                                 //> last: [T](xs: List[T])T
+}
 
 
-last(List(1,2,3))                                 //> res0: Int = 3
+last(List(1,2,3))
 
 
 def init[T](xs: List[T]): List[T] = xs match {
 case List() => throw new Error("init of empty list")
 case List(x) => Nil
 case y::ys => y::init(ys)
-}                                                 //> init: [T](xs: List[T])List[T]
+}
 
-init(List(1,2,3))                                 //> res1: List[Int] = List(1, 2)
+init(List(1,2,3))
 
 
 def concat[T](xs: List[T], ys: List[T]): List[T] = xs match {
 	case Nil => ys
 	case z::zs => z::concat(zs,ys)
-}                                                 //> concat: [T](xs: List[T], ys: List[T])List[T]
+}
 
-concat(List(1,2,3),List(4,5,6))                   //> res2: List[Int] = List(1, 2, 3, 4, 5, 6)
+concat(List(1,2,3),List(4,5,6))
 
 
 def reverse[T](xs: List[T]): List[T] = xs match {
  case List() => List()
  case y::ys => reverse(ys):+y
-}                                                 //> reverse: [T](xs: List[T])List[T]
+}
 
-reverse(List(1,2,3))                              //> res3: List[Int] = List(3, 2, 1)
+reverse(List(1,2,3))
 
 
 def removeAt[T](xs: List[T], n: Int): List[T] = xs match {
@@ -45,10 +45,10 @@ def removeAt[T](xs: List[T], n: Int): List[T] = xs match {
 		else y::removeAt(ys,n-1)
 	}
 	
-}                                                 //> removeAt: [T](xs: List[T], n: Int)List[T]
+}
 
- removeAt(List('a','b','c'),1)                    //> res4: List[Char] = List(a, c)
-List(1,2,3) indexOf 2                             //> res5: Int = 1
+ removeAt(List('a','b','c'),1)
+List(1,2,3) indexOf 2
 
 
 
@@ -77,7 +77,7 @@ def mergeNS(xs: List[Int], ys: List[Int]): List[Int] =  xs match {
 	 // }
 	}
 	
-}                                                 //> mergeNS: (xs: List[Int], ys: List[Int])List[Int]
+}
 
 
 
@@ -92,7 +92,7 @@ def msort(xs: List[Int]): List[Int] = {
 	}
 	
 
-}                                                 //> msort: (xs: List[Int])List[Int]
+}
 //symmetric merge
 
 def merge(xs: List[Int], ys: List[Int]): List[Int] =
@@ -104,14 +104,14 @@ def merge(xs: List[Int], ys: List[Int]): List[Int] =
 			else y::merge(xs,ys1)
 		}
 		
-	}                                         //> merge: (xs: List[Int], ys: List[Int])List[Int]
+	}
 
-merge(List(),List(1,2,3))                         //> res6: List[Int] = List(1, 2, 3)
-merge(List(1,2,3),List())                         //> res7: List[Int] = List(1, 2, 3)
-merge(List(2,4,90), List(1,3,5,6,7))              //> res8: List[Int] = List(1, 2, 3, 4, 5, 6, 7, 90)
-msort(List(1,3,5,2,4,6))                          //> res9: List[Int] = List(1, 2, 3, 4, 5, 6)
-msort(List(4,1,-3,2))                             //> res10: List[Int] = List(-3, 1, 2, 4)
-msort(List(2,1,4,1,1,2))                          //> res11: List[Int] = List(1, 1, 1, 2, 2, 4)
+merge(List(),List(1,2,3))
+merge(List(1,2,3),List())
+merge(List(2,4,90), List(1,3,5,6,7))
+msort(List(1,3,5,2,4,6))
+msort(List(4,1,-3,2))
+msort(List(2,1,4,1,1,2))
 
 
 // parameterized mergesort
@@ -133,14 +133,13 @@ def msortp[T](xs: List[T])(implicit ord: Ordering[T]): List[T] = {
 		
 		mergep(msortp(fst), msortp(snd))
 	}
-}                                                 //> msortp: [T](xs: List[T])(implicit ord: Ordering[T])List[T]
+}
 
 
-msortp(List(3,5,2,6))                             //> res12: List[Int] = List(2, 3, 5, 6)
+msortp(List(3,5,2,6))
 val fruits = List("apple","pineapple","orange","banana")
-                                                  //> fruits  : List[String] = List(apple, pineapple, orange, banana)
 
-msortp(fruits)                                    //> res13: List[String] = List(apple, banana, orange, pineapple)
+msortp(fruits)
                                                   
 
  // these are fine, but need to take care of when either or both hits the end of the list
@@ -149,23 +148,22 @@ msortp(fruits)                                    //> res13: List[String] = List
  // else if (xs.head > ys.head) ys.head::merge(xs, ys.tail)
 
 
-val (a,b) = List(1,2,3,4) splitAt 1               //> a  : List[Int] = List(1)
-                                                  //| b  : List[Int] = List(2, 3, 4)
+val (a,b) = List(1,2,3,4) splitAt 1
 
 
 def scaleList(xs: List[Double], factor: Double): List[Double] = xs match {
 	case Nil => Nil
 	case x::xs1 => (x*factor)::scaleList(xs1,factor)
-}                                                 //> scaleList: (xs: List[Double], factor: Double)List[Double]
+}
 
-scaleList(List(1,2,3), 0.2)                       //> res14: List[Double] = List(0.2, 0.4, 0.6000000000000001)
+scaleList(List(1,2,3), 0.2)
 
 def squareList(xs: List[Double]): List[Double] = xs match {
 	case List() => List()
 	case x::xs1 => x*x::squareList(xs1)
-}                                                 //> squareList: (xs: List[Double])List[Double]
+}
 
-squareList(List(1,2,3))                           //> res15: List[Double] = List(1.0, 4.0, 9.0)
+squareList(List(1,2,3))
 
 
 // filtering
@@ -176,7 +174,14 @@ case x::xs1 => {
 	if (x > 0) x::posElems(xs1)
 	else posElems(xs1)
 }
-}                                                 //> posElems: (xs: List[Int])List[Int]
+}
 
-posElems(List(-3,4,5,-1))                         //> res16: List[Int] = List(4, 5)
+posElems(List(-3,4,5,-1))
+
+val cats = List("Tiger", "Lion", "Puma", "Leopard",
+                  "Jaguar", "Cheetah", "Bobcat")
+val groupedByLength = cats.groupBy(_.length)
+groupedByLength.toList()
+
+
 }
