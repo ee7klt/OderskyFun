@@ -72,22 +72,38 @@ object x {
                                                   //| Output exceeds cutoff limit.
   	
   /* function that receives a number and finds the words that match it */
-  def encode(number: String): Set[List[String]] = ???
-                                                  //> encode: (number: String)Set[List[String]]
+  /** return all ways to encode a number as a list of words */
+  def encode(number: String): Set[List[String]] =
+		if (number.isEmpty) Set(List())   // empty number represents an empty phrase, so don't put Set() here.
+		else {for {
+			split <- 1 to number.length
+			word <- wordsForNum(number take split)
+			rest <- encode(number drop split)
+		} yield word::rest}.toSet         //> encode: (number: String)Set[List[String]]
+		
+		
+encode("7225247386")                              //> java.util.NoSuchElementException: key not found: 7
+                                                  //| 	at scala.collection.MapLike$class.default(MapLike.scala:228)
+                                                  //| 	at scala.collection.AbstractMap.default(Map.scala:59)
+                                                  //| 	at scala.collection.MapLike$class.apply(MapLike.scala:141)
+                                                  //| 	at scala.collection.AbstractMap.apply(Map.scala:59)
+                                                  //| 	at week6.x$$anonfun$main$1$$anonfun$week6$x$$anonfun$$encode$1$1.apply(w
+                                                  //| eek6.x.scala:45)
+                                                  //| 	at week6.x$$anonfun$main$1$$anonfun$week6$x$$anonfun$$encode$1$1.apply(w
+                                                  //| eek6.x.scala:44)
+                                                  //| 	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(Traversable
+                                                  //| Like.scala:252)
+                                                  //| 	at scala.collection.TraversableLike$$anonfun$flatMap$1.apply(Traversable
+                                                  //| Like.scala:252)
+                                                  //| 	at scala.collection.immutable.Range.foreach(Range.scala:166)
+                                                  //| 	at scala.collection.TraversableLike$class.flatMap(TraversableLike.scala:
+                                                  //| 252)
+                                                  //| 	at scala.collection.AbstractTraversable.flatMap(Traversable.scala:104)
+                                                  //| 	at week6.x$$anonfun$main$1.week6$x$$anonfun$$encode$1
+                                                  //| Output exceeds cutoff limit.
   /* better print of the results */
-  def translate(number: String): Set[String] = ???//> translate: (number: String)Set[String]
+  def translate(number: String): Set[String] = ???
   /* test the translate and print results*/
-  translate("7225247386") foreach println         //> scala.NotImplementedError: an implementation is missing
-                                                  //| 	at scala.Predef$.$qmark$qmark$qmark(Predef.scala:225)
-                                                  //| 	at week6.x$$anonfun$main$1.translate$1(week6.x.scala:42)
-                                                  //| 	at week6.x$$anonfun$main$1.apply$mcV$sp(week6.x.scala:44)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
-                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
-                                                  //| orksheetSupport.scala:65)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
-                                                  //| ksheetSupport.scala:75)
-                                                  //| 	at week6.x$.main(week6.x.scala:5)
-                                                  //| 	at week6.x.main(week6.x.scala)
+  translate("7225247386") foreach println
 
 }
