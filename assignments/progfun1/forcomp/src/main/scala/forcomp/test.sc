@@ -1,24 +1,14 @@
 import forcomp.Anagrams._
 
 object test {
-   wordOccurrences("hello")                       //> java.lang.ExceptionInInitializerError
-                                                  //| 	at test$$anonfun$main$1.apply$mcV$sp(test.scala:4)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
-                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
-                                                  //| orksheetSupport.scala:65)
-                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
-                                                  //| ksheetSupport.scala:75)
-                                                  //| 	at test$.main(test.scala:3)
-                                                  //| 	at test.main(test.scala)
-                                                  //| Caused by: java.lang.RuntimeException: Could not load word list, dictionary f
-                                                  //| ile not found
-                                                  //| 	at scala.sys.package$.error(package.scala:27)
-                                                  //| 	at forcomp.package$$anonfun$2.apply(package.scala:10)
-                                                  //| 	at forcomp.package$$anonfun$2.apply(package.scala:10)
-                                                  //| 	at scala.Option.getOrElse(Option.scala:121)
-                                                  //| 	at forcomp.package$.loadDictionary(package.scala:9)
-                                                  //| 	at forcomp.Anagrams$.<init>(Anagrams.scala:28)
-                                                  //| 	at forcomp.Anagrams$.<clinit>(Anagrams.scala)
-                                                  //| 	... 6 more
+   wordOccurrences("hello")                       //> res0: forcomp.Anagrams.Occurrences = List((e,1), (h,1), (l,2), (o,1))
+        
+        
+        val a = List("abc","def")                 //> a  : List[String] = List(abc, def)
+        for (
+        	x <- a
+        )yield a                                  //> res1: List[List[String]] = List(List(abc, def), List(abc, def))
+        
+        ("abc"+"def").toList                      //> res2: List[Char] = List(a, b, c, d, e, f)
+        (a mkString ("")).toList                  //> res3: List[Char] = List(a, b, c, d, e, f)
 }
