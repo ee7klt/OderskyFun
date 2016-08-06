@@ -134,11 +134,13 @@ object test {
     for (
       (ch, occ) <- terms
     ) yield {
-      if (ch == term._1) (ch, occ - 1)
+      if (ch == term._1) (ch, occ - term._2)
       else (ch, occ)
     }
 
   }                                               //> adjust: (term: (Char, Int), terms: List[(Char, Int)])List[(Char, Int)]
+  
+  
 
 
 
@@ -151,6 +153,8 @@ object test {
   
   subt( List(('a', 2), ('b', 3)),List(('a', 1),('b',1)))
                                                   //> res25: List[(Char, Int)] = List((a,1), (b,2))
+    subt( List(('a', 2), ('b', 3)),List(('a', 1),('b',3)))
+                                                  //> res26: List[(Char, Int)] = List((a,1), (b,0))
      
   def adjust2(term: (Char, Int), terms: List[(Char, Int)]): List[(Char, Int)] = terms map (
     (x) =>
@@ -158,15 +162,19 @@ object test {
       else x)                                     //> adjust2: (term: (Char, Int), terms: List[(Char, Int)])List[(Char, Int)]
 
   adjust(('a', 1), List(('a', 2), ('b', 3))) != List(('a', 1))
-                                                  //> res26: Boolean = true
-  adjust(('a', 1), List(('a', 2), ('b', 3))) == List(('a', 1), ('b', 3))
                                                   //> res27: Boolean = true
-  adjust(('a', 1), List(('a', 2), ('b', 3)))      //> res28: List[(Char, Int)] = List((a,1), (b,3))
+  adjust(('a', 1), List(('a', 2), ('b', 3))) == List(('a', 1), ('b', 3))
+                                                  //> res28: Boolean = true
+  adjust(('a', 1), List(('a', 2), ('b', 3)))      //> res29: List[(Char, Int)] = List((a,1), (b,3))
 
   adjust2(('a', 1), List(('a', 2), ('b', 3))) != List(('a', 1))
-                                                  //> res29: Boolean = true
-  adjust2(('a', 1), List(('a', 2), ('b', 3))) == List(('a', 1), ('b', 3))
                                                   //> res30: Boolean = true
-  adjust2(('a', 1), List(('a', 2), ('b', 3)))     //> res31: List[(Char, Int)] = List((a,1), (b,3))
+  adjust2(('a', 1), List(('a', 2), ('b', 3))) == List(('a', 1), ('b', 3))
+                                                  //> res31: Boolean = true
+  adjust2(('a', 1), List(('a', 2), ('b', 3)))     //> res32: List[(Char, Int)] = List((a,1), (b,3))
+  
+  
+  List(List(1),List(2)) updated (1, Nil)          //> res33: List[List[Int]] = List(List(1), List())
+  
 
 }
