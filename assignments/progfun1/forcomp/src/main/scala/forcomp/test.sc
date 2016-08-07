@@ -110,10 +110,36 @@ object test {
 
   
   //
-  
-  
+ // expect the extraction of element x at index 1 to be ('d',1)
+(x apply 1) == ('d',1)                            //> res23: Boolean = true
+
+// occurrence of 'd' should be 1
+x.toMap.apply('d') == 1                           //> res24: Boolean = true
+// x.toMap('d') why does this not work?
+
+//expect tuple for 'p' occurrence to be at index position 3
+x.indexWhere(p => p._1 == 'r')  == 3              //> res25: Boolean = true
+
+
+// expect position of 'r' in x to be at index 3
+x.indexWhere(p => p._1 == y(0)._1) == 3           //> res26: Boolean = true
+
+
+// expect the updated occurrence of 'r' to be 0
+val n = x.indexWhere(p => p._1 == y(0)._1)        //> n  : Int = 3
+(x updated (n,(x(n)._1,x(n)._2 - y(0)._2))) == List(('a', 1), ('d', 1), ('l', 1), ('r', 0))
+                                                  //> res27: Boolean = true
+ 
+(y foldLeft x)(
+	(acc, next_y) => {
+			val n = acc.indexWhere(p => p._1 == next_y._1)
+			(acc updated (n,(acc(n)._1,acc(n)._2 - next_y._2)))
+		}
+)                                                 //> res28: List[(Char, Int)] = List((a,0), (d,1), (l,1), (r,0))
+
+
    
- List(1,2,3) partition (x => (x==1)||(x==2))      //> res23: (List[Int], List[Int]) = (List(1, 2),List(3))
+ List(1,2,3) partition (x => (x==1)||(x==2))      //> res29: (List[Int], List[Int]) = (List(1, 2),List(3))
  
  
 
@@ -126,7 +152,7 @@ object test {
   }                                               //> adjust3: (term: (Char, Int), terms: List[(Char, Int)])List[(Char, Int)]
   
     adjust3(('a', 1), List(('a', 2), ('b', 3))) == (a,1)
-                                                  //> res24: Boolean = false
+                                                  //> res30: Boolean = false
   //  adjust3(('c', 3), List(('a', 2), ('b', 3))) == (a,1)
   
 
@@ -152,9 +178,9 @@ object test {
   
   
   subt( List(('a', 2), ('b', 3)),List(('a', 1),('b',1)))
-                                                  //> res25: List[(Char, Int)] = List((a,1), (b,2))
+                                                  //> res31: List[(Char, Int)] = List((a,1), (b,2))
     subt( List(('a', 2), ('b', 3)),List(('a', 1),('b',3)))
-                                                  //> res26: List[(Char, Int)] = List((a,1), (b,0))
+                                                  //> res32: List[(Char, Int)] = List((a,1), (b,0))
      
   def adjust2(term: (Char, Int), terms: List[(Char, Int)]): List[(Char, Int)] = terms map (
     (x) =>
@@ -162,19 +188,19 @@ object test {
       else x)                                     //> adjust2: (term: (Char, Int), terms: List[(Char, Int)])List[(Char, Int)]
 
   adjust(('a', 1), List(('a', 2), ('b', 3))) != List(('a', 1))
-                                                  //> res27: Boolean = true
+                                                  //> res33: Boolean = true
   adjust(('a', 1), List(('a', 2), ('b', 3))) == List(('a', 1), ('b', 3))
-                                                  //> res28: Boolean = true
-  adjust(('a', 1), List(('a', 2), ('b', 3)))      //> res29: List[(Char, Int)] = List((a,1), (b,3))
+                                                  //> res34: Boolean = true
+  adjust(('a', 1), List(('a', 2), ('b', 3)))      //> res35: List[(Char, Int)] = List((a,1), (b,3))
 
   adjust2(('a', 1), List(('a', 2), ('b', 3))) != List(('a', 1))
-                                                  //> res30: Boolean = true
+                                                  //> res36: Boolean = true
   adjust2(('a', 1), List(('a', 2), ('b', 3))) == List(('a', 1), ('b', 3))
-                                                  //> res31: Boolean = true
-  adjust2(('a', 1), List(('a', 2), ('b', 3)))     //> res32: List[(Char, Int)] = List((a,1), (b,3))
+                                                  //> res37: Boolean = true
+  adjust2(('a', 1), List(('a', 2), ('b', 3)))     //> res38: List[(Char, Int)] = List((a,1), (b,3))
   
   
-  List(List(1),List(2)) updated (1, Nil)          //> res33: List[List[Int]] = List(List(1), List())
+  List(List(1),List(2))                           //> res39: List[List[Int]] = List(List(1), List(2))
   
 
 }
