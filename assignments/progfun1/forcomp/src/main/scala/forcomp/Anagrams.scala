@@ -35,13 +35,13 @@ object Anagrams {
    *  Note: you must use `groupBy` to implement this method!
    */
   def wordOccurrences(w: Word): Occurrences =  (for (
-      (c,l) <- (w.toLowerCase.toList groupBy ((element:Char) => element))
+      (c,l) <- (w.toLowerCase.toList groupBy ((element:Char) => element))   // "Hello" -> Map(l -> List(l,l), h -> List(h) etc.)
       ) yield (c -> l.length)).toList.sorted   
 
   
       
   /** Converts a sentence into its character occurrence list. */
-  def sentenceOccurrences(s: Sentence): Occurrences = wordOccurrences(s mkString (""))
+  def sentenceOccurrences(s: Sentence): Occurrences = wordOccurrences(s mkString ("")) // mkString "" turns the List into a string separated by ""
 
   /** The `dictionaryByOccurrences` is a `Map` from different occurrences to a sequence of all
    *  the words that have that occurrence count.
@@ -155,5 +155,24 @@ object Anagrams {
    *
    *  Note: There is only one anagram of an empty sentence.
    */
-  def sentenceAnagrams(sentence: Sentence): List[Sentence] = ???
+  def sentenceAnagrams(sentence: Sentence): List[Sentence] = {
+    def validWords(occ: Occurrences): List[Word] = {
+    dictionaryByOccurrences.get(occ) match {
+      case Some(l) => l
+      case None    => List()
+    }
+  }  
+    
+    def subSentence(occ: Occurrences): List[Sentence] = {
+      if (occ.isEmpty) List(List())
+      else for {
+        x <- combinations(occ)
+        y <- validWords(x)
+        z <- subSentence(subtract(occ,x))
+      } yield y::z
+    }
+    subSentence(sentenceOccurrences(sentence))
+  }
+    
+   
 }

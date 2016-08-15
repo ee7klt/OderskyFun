@@ -72,13 +72,22 @@ object x {
 
   /* function that receives a number and finds the words that match it */
   /** return all ways to encode a number as a list of words */
+  // need to pick different lengths of the numbers starting with one number
+  // e.g. 1234
+  // need to look at possibilities
+// 1,2,3,4
+//1,234
+//12,34
+//1,23,4
+//123,4 etc.
   def encode(number: String): Set[List[String]] =
     if (number.isEmpty) Set(List()) // empty number represents an empty phrase, so don't put Set() here.
     else {
-      for {
+     for {
         split <- 1 to number.length
-        word <- wordsForNum(number take split)
-        rest <- encode(number drop split)
+        word <- wordsForNum(number take split)  // the first n numbers (1,12,123,1234)
+        rest <- encode(number drop split)      // the rest after taking the first n numbers (234,34,4,Nil)
+        // the recursive call to encode will take care of breaking the rest in to their constituencies (2,34 and 23,4 and 2,3,4 for the 234 for e.g)
       } yield word :: rest
     }.toSet                                       //> encode: (number: String)Set[List[String]]
 
